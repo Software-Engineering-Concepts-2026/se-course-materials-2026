@@ -1,4 +1,3 @@
-```markdown
 # รายวิชา วิศวกรรมซอฟต์แวร์ (Software Engineering)
 
 **ผู้สอน:** อาจารย์ธรรมรัตน์ ธรรมา  
@@ -98,4 +97,3 @@
 * `How to grow your ecommerce business internationally (with examples)_3`
 * `Attention Required! | Cloudflare_3`
 
-```
