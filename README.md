@@ -1,10 +1,10 @@
 # รายวิชา วิศวกรรมซอฟต์แวร์ (Software Engineering)
 
+**ผู้สอน:** อาจารย์ธรรมรัตน์ ธรรมา  
 **ระดับหลักสูตร:** ปริญญาตรี ชั้นปีที่ 3 (สาขาวิทยาการคอมพิวเตอร์)  
-**รูปแบบการจัดเรียน:** บรรยาย 2 ชั่วโมง + ปฏิบัติการแล็บ 2 ชั่วโมง ต่อสัปดาห์ (รวม 15 สัปดาห์)  
+**รูปแบบการเรียน:** บรรยาย 2 ชั่วโมง + ปฏิบัติการแล็บ 2 ชั่วโมง ต่อสัปดาห์ (รวม 15 สัปดาห์)  
 **จำนวนผู้เรียน:** ~90 คน (แบ่งกลุ่มปฏิบัติการได้ประมาณ 18 ทีม ทีมละ ~5 คน)  
-**ผู้สอน:** อาจารย์ประจำรายวิชา อ.กิ๊ก (ไม่มีผู้ช่วยสอน - TA)  
-**ช่องทางบริหารจัดการสเกลใหญ่:** [GitHub Organization ของรายวิชา]
+**บริหารจัดการสเกลใหญ่โดยไม่มี TA:** [GitHub Organization ของรายวิชา]
 
 ---
 
@@ -24,30 +24,30 @@
 | **5** | **Structural Modeling & Basic Design Principles**<br>• การออกแบบระดับโครงสร้างด้วย Class Diagram (Attributes, Methods, Relationships)<br>• หลักการออกแบบเบื้องต้นเบื้องหลังความคุ้มค่า (High Cohesion, Low Coupling และ Separation of Concerns) | **Class Diagram & Database Schema Mapping**<br>• เขียน Class Diagram ของระบบให้สอดคล้องกับฐานข้อมูลที่เคยเรียนมา<br>• ปรับปรุง Class Diagram ให้รองรับ Business Logic ของโปรเจกต์ | • **Deliverable:** Class Diagram ร่างแรก<br>• **Note:** เริ่มเน้นย้ำเกณฑ์ Process Tracking (ความถี่ในการอัปเดตไฟล์บน Git) |
 | **6** | **Software Architecture & Secure Coding Foundations**<br>• ภาพรวมสถาปัตยกรรมซอฟต์แวร์ (Architectural Design: MVC, Layered, Client-Server)<br>• พื้นฐานความปลอดภัย (Basic Security Requirements): การตระหนักรู้ภัยคุกคาม เช่น Injection, Broken Authentication และแนวคิดการเข้ารหัสข้อมูลสำคัญ | **Architectural & Security Mapping**<br>• นิสิตร่วมกันกำหนด Architecture Pattern และเทคโนโลยีที่จะเลือกใช้ในโปรเจกต์<br>• วิเคราะห์หาจุดเสี่ยงด้านความปลอดภัยของโปรเจกต์กลุ่ม และออกแบบระบบป้องกันขั้นต้น (เช่น การแฮชรหัสผ่าน) | • **Deliverable:** แผนภาพสถาปัตยกรรมซอฟต์แวร์ระบบ (Architecture Diagram) และรายการความปลอดภัยทางเทคนิคที่ต้องระวัง |
 | **7** | **Collaborative Construction & Version Control Workflow**<br>• มาตรฐานการเขียนโค้ด (Coding Standards) และระเบียบวิธีสร้างซอฟต์แวร์ร่วมกัน<br>• การทำงานแบบ Collaborative Git ขั้นสูง (Git Branching Strategies: GitHub Flow/Gitflow, Pull Requests, Merge Conflict Resolution) | **Git Collaborative Lab**<br>• กิจกรรมจำลองการเกิด Merge Conflict เพื่อฝึกให้นิสิตรู้วิธีแก้ไขร่วมกัน<br>• เริ่มต้นตั้งโครงสร้างโปรเจกต์ทีม (Project Initialization) และสร้าง Git Branch สำหรับฟีเจอร์แรก | • **Deliverable:** โครงร่างซอฟต์แวร์ (Project Skeleton Code) ที่ Push ขึ้น GitHub Main Branch และการแยก Branch ทำงานรายบุคคลอย่างมีระบบ |
-| **8** | **Midterm Assessment Period**<br>• หมายเหตุ: เพื่อให้สอดรับกับวิชา Project-based สัปดาห์บรรยายนี้จะสรุปภาพรวมครึ่งเทอมแรก<br>• ทบทวนและติดตามความคืบหน้าของทุกโปรเจกต์กลุ่ม | **Midterm Project Sync & Checkpoint**<br>• อาจารย์นัดหมายตรวจความคืบหน้าภาพรวม (Milestone Check) ของโค้ดฟังก์ชันหลักตัวแรกที่ต้องรันได้เบื้องต้น | • **Deliverable:** ซอฟต์แวร์เวอร์ชันต้นแบบแรก (Minimum Viable Product - MVP) ที่มีความสามารถหลักอย่างน้อย 1 ฟังก์ชัน |
+| **8** | 🛑 **Midterm Assessment Period**<br>*(ไม่มีการบรรยาย)* | 🛑 **Midterm Assessment Period**<br>*(ไม่มีกิจกรรมแล็บ)* | **[สัปดาห์เคลียร์งานและเตรียมสอบ]**<br>• นิสิตเคลียร์และทบทวนเนื้อหาเพื่อเตรียมตัวสอบไล่/สอบกลางภาคในรายวิชาอื่น ๆ<br>• **ไม่มีการสั่งงานใหม่ในสัปดาห์นี้** |
 | **9** | **Strategic Learning: Adversarial Assessment #2**<br>• 🧪 **[สอบจับผิด 1 ชม.]** กิจกรรม "สอบจับผิดโค้ดที่เจนด้วย AI" โดยอาจารย์ซ่อน Bug เชิงตรรกะ ตัวแปรสลับ หรือช่องโหว่ความปลอดภัยเนียนๆ 3-4 จุด ให้นิสิตหาและอธิบายวิธีแก้<br>• [บรรยาย 1 ชม.] Software Testing Levels & Test Design Techniques | **Test Case & Test Script Planning**<br>• นิสิตฝึกออกแบบแนวทางการทดสอบระบบของโปรเจกต์กลุ่ม<br>• เขียนเอกสาร Test Case Specification ระบุ Input, Expected Output และประเภทของการทดสอบ | • **คะแนนเดี่ยว (2):** Quiz จับผิด Bug ในซอฟต์แวร์ที่มาจาก AI<br>• เอกสารรายการ Test Cases สำหรับโปรเจกต์กลุ่ม |
 | **10** | **Unit Testing & Test Automation Basics**<br>• แนวคิดการทดสอบระดับย่อย (Unit Testing) และประโยชน์ของการเขียนเทสตั้งแต่เนิ่นๆ<br>• แนะนำการใช้งาน Testing Framework ในภาษาที่กลุ่มเลือกใช้ (เช่น JUnit, PyTest) | **Writing Unit Tests for the Project**<br>• นิสิตแต่ละคนเขียน Unit Test ให้กับโมดูลโค้ดที่ตนเองได้รับผิดชอบในโปรเจกต์กลุ่มจริง (ห้ามเขียนเทสเฉพาะเคสที่ผ่านง่ายๆ เท่านั้น) | • **Deliverable:** ชุดคำสั่งสำหรับทดสอบ (Unit Test Scripts) ที่ผสานรวมอยู่ในระบบ GitHub Repository ของทีม |
 | **11** | **Quality Control & Peer Code Review**<br>• เทคนิคการควบคุมคุณภาพซอฟต์แวร์ (Quality Control/Quality Assurance)<br>• วัฒนธรรมและขั้นตอนการทำ Code Review อย่างสร้างสรรค์<br>• การอ่านและทำความเข้าใจโค้ดของผู้อื่น | **GitHub Pull Request & Review Lab**<br>• นิสิตเปิดฟีเจอร์ของตนเองผ่าน Pull Request (PR) บน GitHub<br>• บังคับให้สมาชิกในทีมคนอื่นเข้ามาทำ Code Review และกด Approve ก่อนที่จะ Merge โค้ดเข้าสู่ Main Branch | • **Deliverable:** ร่องรอยการทำ Code Review และการสนทนาถกเถียงบนระบบ GitHub Pull Request (ใช้ประเมิน Process Tracking) |
 | **12** | **Static Analysis & Modern QA (DevOps Overview)**<br>• แนะนำเครื่องมือการวิเคราะห์โค้ดแบบสถิต (Static Analysis Tools เช่น SonarQube, Linters)<br>• ภาพรวมและแนวคิด DevOps และ Continuous Integration (CI) | **Setting Up Linter & CI Pipeline**<br>• นักศึกษาเปิดใช้งาน Linter ตรวจรูปแบบโค้ดอัตโนมัติ<br>• เขียนไฟล์คอนฟิก GitHub Actions (CI pipeline) เพื่อให้ระบบรัน Unit Test อัตโนมัติทุกครั้งที่มีการเปิด PR หรือ Push โค้ด | • **Deliverable:** ไฟล์คอนฟิก CI และป้ายสถานะผ่านการทดสอบ (CI Build Passing Badge) บนไฟล์ README ของโครงการ |
 | **13** | **Software Maintenance, Technical Debt & Refactoring**<br>• วงจรการบำรุงรักษาและการเปลี่ยนผ่านของซอฟต์แวร์ (Maintenance & Evolution)<br>• ความหมายและผลกระทบของ "Technical Debt" (หนี้ทางเทคนิค)<br>• หลักการปรับปรุงโครงสร้างโค้ดโดยไม่เปลี่ยนผลลัพธ์ภายนอก (Refactoring Basics) | **Code Smells Hunting & Refactoring**<br>• ร่วมกันตรวจหาร่องรอยโค้ดที่ไม่มีประสิทธิภาพ (Code Smells) ในซอฟต์แวร์ของโปรเจกต์กลุ่ม<br>• ทำการ Refactoring โค้ดชิ้นนั้นให้สะอาด อ่านง่าย และยืดหยุ่นขึ้น โดยมี Unit Test คอยคุมไม่ให้ระบบพัง | • **Deliverable:** โค้ดโปรเจกต์กลุ่มที่ผ่านการ Refactor และไม่มีข้อผิดพลาดจากการตรวจสอบของ Static Analysis |
-| **14** | **Final Integration & Project Wrap-up**<br>• การรวมระบบในขั้นตอนสุดท้าย (Final System Integration)<br>• เทคนิคการจัดทำรายงานสรุปโครงการและการเตรียมตัวนำเสนอผลงาน (Project Demo Prep)<br>• แนะนำสัญญาระหว่างพัฒนาและการปล่อยซอฟต์แวร์สู่ Production | **Bug Fixing & Deployment Check**<br>• ทดสอบระบบร่วมกันทั้งระบบเพื่อหาข้อผิดพลาดช่วงสุดท้าย (System & Integration Testing)<br>• เตรียมพร้อมระบบให้ทำงานบนสภาพแวดล้อมจำลองที่พร้อมทดสอบ (Staging/Production Environment) | • **Deliverable:** ซอฟต์แวร์เวอร์ชันสมบูรณ์ (Production-ready Version) ที่ล็อกเวอร์ชันผ่าน Git Tag บน GitHub |
-| **15** | **Project Demo, Retrospective & Evaluation**<br>• สรุปบทเรียนและการเรียนรู้ตลอดภาคการศึกษา<br>• การปิดโครงการและการทำ Retrospective เพื่อปรับปรุงกระบวนการพัฒนาตนเอง | **Project Marketplace & AI Exam Defense**<br>• นำเสนอโปรเจกต์กลุ่ม (Group Demo) และส่งรายงานฉบับสมบูรณ์<br>• ทำกิจกรรม Agile Retrospective ภายในกลุ่ม<br>• 🤖 **[AI-Driven Oral Exam & Defense]** การทดสอบปากเปล่ารายบุคคลผ่าน AI (ดูรายละเอียดเกณฑ์การประเมินด้านล่าง) | • **Deliverable:** เอกสารรายงานสรุปบทเรียน (Retrospective Report) และคะแนนการประเมินเพื่อนร่วมกลุ่ม (Peer Evaluation) |
+| **14** | **Final Integration & Project Wrap-up**<br>• การรวมระบบในขั้นตอนสุดท้าย (Final System Integration)<br>• เทคนิคการจัดทำรายงานสรุปโครงการและการเตรียมตัวนำเสนอผลงาน (Project Demo Prep) | **Bug Fixing & Deployment Check**<br>• ทดสอบระบบร่วมกันทั้งระบบเพื่อหาข้อผิดพลาดช่วงสุดท้าย (System & Integration Testing)<br>• เตรียมพร้อมระบบให้ทำงานบนสภาพแวดล้อมจำลองที่พร้อมทดสอบ (Staging/Production Environment) | • **Deliverable:** ซอฟต์แวร์เวอร์ชันสมบูรณ์ (Production-ready Version) ที่ล็อกเวอร์ชันผ่าน Git Tag บน GitHub |
+| **15** | **Project Demo, Retrospective & Evaluation**<br>• สรุปบทเรียนและการเรียนรู้ตลอดภาคการศึกษา<br>• การปิดโครงการและการทำ Retrospective เพื่อปรับปรุงกระบวนการพัฒนาตนเอง | **Project Marketplace & AI Exam Defense**<br>• นำเสนอโปรเจกต์กลุ่ม (Group Demo) และส่งรายงานฉบับสมบูรณ์<br>• ทำกิจกรรม Agile Retrospective ภายในกลุ่ม<br>• 🤖 **[AI-Driven Oral Exam & Defense]** ทดสอบปากเปล่ารายบุคคลผ่าน AI Bot ตามรายละเอียดในเกณฑ์ประเมินผล | • **Deliverable:** เอกสารรายงานสรุปบทเรียน (Retrospective Report) และคะแนนการประเมินเพื่อนร่วมกลุ่ม (Peer Evaluation) |
 
 ---
 
 ## 📊 วิธีการประเมินผล (Assessment Ratios)
 
-เพื่อป้องกันภาวะ **Never-skilling** และบริหารจัดการอย่างมีประสิทธิภาพภายใต้ข้อจำกัดที่อาจารย์ 1 ท่านดูแลนิสิต 90 คน โดยไม่มี TA การประเมินผลจะถูกแบ่งออกเป็น 3 ส่วนหลักที่เน้น **"กระบวนการและการพิสูจน์ทักษะจริง"** ดังนี้:
+การประเมินผลแบ่งออกเป็น 3 ส่วนหลัก เน้นร่องรอยการทำงานและการพิสูจน์ความเข้าใจจริงเพื่อสกัดกั้นภาวะ Never-skilling:
 
 ### 1. กระบวนการทำงานและการเก็บร่องรอย (Process Tracking) [35%]
-ประเมินผลงานแบบสเกลใหญ่ใน GitHub Organization โดยอาศัยร่องรอยเชิงวิศวกรรมที่จับต้องได้:
-* **Git Commit History (15%):** ตรวจสอบประวัติและการกระจายตัวของ Commit เป็นรายบุคคล *(หากพบว่าผู้เรียนคนใดงอกโค้ดมา 500 บรรทัดในคืนเดียวก่อนส่งโดยไม่มีประวัติการทำทีละส่วนย่อย = 0 คะแนนในส่วนนั้น)*
-* **GitHub Project Board & Pull Requests Activity (20%):** วัดจากการจัดการตั๋วงานบน Kanban และร่องรอยการพิมพ์คอมเมนต์ถกเถียง คัดค้าน หรือรีวิวโค้ดให้เพื่อนบน Pull Request เพื่อยืนยันพฤติกรรมการคิดและทำงานจริง (Agentic Workflow)
+ประเมินบนระบบ GitHub Organization อิงจากร่องรอยเชิงวิศวกรรมจริง:
+* **Git Commit History (15%):** ตรวจสอบประวัติและการกระจายตัวของ Commit เป็นรายบุคคล *(หากชี้ว่าคนใดโผล่มางอกโค้ด 500 บรรทัดในคืนเดียวก่อนส่งโดยไม่มีประวัติการทำทีละส่วนย่อยย่อมได้ 0 คะแนนในส่วนนี้)*
+* **GitHub Project Board & Pull Requests Activity (20%):** วัดจากการจัดการตั๋วงานบน Kanban และร่องรอยการพิมพ์คอมเมนต์ถกเถียง คัดค้าน หรือรีวิวโค้ดให้เพื่อนบน Pull Request เพื่อพิสูจน์พฤติกรรมการคิดจริง (Agentic Workflow)
 
 ### 2. การทดสอบและยืนยันความเข้าใจรายบุคคล (Individual Core Assessment) [35%]
-* **In-Class Adversarial Quizzes (15%):** คะแนนจากการสอบ "จับผิด" ในสัปดาห์ที่ 2 และ 9 คัดกรองผ่านระบบปรนัย/เติมคำสั้นใน LMS เพื่อเช็กว่าผู้เรียนมี Schema พื้นฐานพอที่จะตรวจสอบและควบคุมดูแลความถูกต้องของ AI ได้จริง
+* **In-Class Adversarial Quizzes (15%):** คะแนนจากการสอบ "จับผิด" ในสัปดาห์ที่ 2 และ 9 คัดกรองผ่านระบบปรนัย/เติมคำสั้นใน LMS เพื่อเช็กว่าผู้เรียนมี Schema พื้นฐานพอที่จะตรวจสอบความถูกต้องของระบบได้จริง
 * **AI-Driven Oral Exam & Defense (20%):** ในสัปดาห์สุดท้าย นิสิตต้องนำโค้ดส่วนที่ตนรับผิดชอบไปทดสอบปากเปล่ากับบอทแชทที่กำหนด (เช่น Custom GPT หรือ Claude Projects) ตัวบอทจะใช้ Socratic Method ยิงคำถามจี้ถามทีละคนเพื่อวัดความเข้าใจจริง
-  > ⚠️ **หมายเหตุเชิงรุก:** อาจารย์จะเข้าตรวจสอบปากเปล่าด้วยตนเอง (Manual Viva) เฉพาะกลุ่มหรือรายบุคคลที่ AI ติดธงแดง (**Red Flag**) ว่ามีแนวโน้มก๊อปปี้งานมาหรือตอบคำถามไม่ได้เท่านั้น เพื่อลดภาระการตรวจงานสเกลใหญ่
+  > ⚠️ **นโยบายสุ่มตรวจ:** อาจารย์จะเข้าไปตรวจสอบปากเปล่าด้วยตนเอง (Manual Viva) เฉพาะกลุ่มหรือรายบุคคลที่ AI ติดธงแดง (**Red Flag**) ว่ามีแนวโน้มก๊อปปี้งานมาหรือตอบคำถามไม่ได้เท่านั้น เพื่อบริหารจัดการเวลาอย่างมีประสิทธิภาพสูงสุด
 
 ### 3. ชิ้นงานและเอกสารซอฟต์แวร์สุดท้าย (Final Product Artifacts) [30%]
 * **SRS, UML Diagrams & Retrospective Documents (10%):** คะแนนความสมบูรณ์ ความสอดคล้องเชิงโครงสร้าง และความถูกต้องทางวิศวกรรมของเอกสารกลุ่ม
@@ -55,6 +55,5 @@
 
 ---
 
-## 📚 หนังสือและแหล่งข้อมูลอ้างอิงหลัก (Core Reference Material)
-ในการพัฒนาเนื้อหาและทักษะตลอดรายวิชา จะอ้างอิงจากเล่มหลักดังต่อไปนี้เป็นหลัก:
-* *Fundamentals of Software Engineering: From Coder to Engineer* (1st Edition, 2026) โดย Nathaniel Schutta และ Dan Vega (O'Reilly Media)
+## 📚 แหล่งข้อมูลและหนังสืออ้างอิงหลัก (Core Reference Material)
+* *Fundamentals of Software Engineering_ From Coder to Engineer -- Nathaniel Schutta & Dan Vega -- 2026 -- 03fa27e9885e055ca5bfdc2238f01ca7 -- Anna’s Archive.pdf*
