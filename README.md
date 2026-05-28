@@ -33,21 +33,21 @@
 | **14** | **Final Integration & Project Wrap-up**<br>• การรวมระบบในขั้นตอนสุดท้าย (Final System Integration)<br>• เทคนิคการจัดทำรายงานสรุปโครงการและการเตรียมตัวนำเสนอผลงาน (Project Demo Prep) | **Bug Fixing & Deployment Check**<br>• ทดสอบระบบร่วมกันทั้งระบบเพื่อหาข้อผิดพลาดช่วงสุดท้าย (System & Integration Testing)<br>• เตรียมพร้อมระบบให้ทำงานบนสภาพแวดล้อมจำลองที่พร้อมทดสอบ (Staging/Production Environment) | • ซอฟต์แวร์เวอร์ชันสมบูรณ์ (Production-ready Version) ที่ล็อกเวอร์ชันผ่าน Git Tag บน GitHub | • **Milestone Review 2 / Final Integration = 5%** |
 | **15** | **Project Demo, Retrospective & Evaluation**<br>• สรุปบทเรียนและการเรียนรู้ตลอดภาคการศึกษา<br>• การปิดโครงการและการทำ Retrospective เพื่อปรับปรุงกระบวนการพัฒนาตนเอง | **Project Marketplace & AI Exam Defense**<br>• นำเสนอโปรเจกต์กลุ่ม (Group Demo) และส่งรายงานฉบับสมบูรณ์<br>• ทำกิจกรรม Agile Retrospective ภายในกลุ่ม<br>• ดำเนินการสอบปากเปล่ารายบุคคลเพื่อยืนยันความเข้าใจและการมีส่วนร่วมในงาน | • เอกสารรายงานสรุปบทเรียน (Retrospective Report)<br>• คะแนนการประเมินเพื่อนร่วมกลุ่ม (Peer Evaluation) | • **Final Demo / Oral Defense = 10%**<br>• **Team Contribution / Peer Evaluation 2 = 5%** |
 
-> หมายเหตุ: การประเมินผลรายสัปดาห์ในตารางนี้เป็นการแจกแจงความเชื่อมโยงระหว่างกิจกรรมการเรียนรู้ ชิ้นงาน และองค์ประกอบการให้คะแนนของรายวิชา ทั้งนี้ การประเมินบางส่วนอาจพิจารณาจากหลักฐานสะสมต่อเนื่องตลอดภาคการศึกษา เช่น process tracking, code review, commits, pull requests และการมีส่วนร่วมใน repository ของทีม [file:23][file:12][file:5]
+> หมายเหตุ: การประเมินผลรายสัปดาห์ในตารางนี้เป็นการแจกแจงความเชื่อมโยงระหว่างกิจกรรมการเรียนรู้ ชิ้นงาน และองค์ประกอบการให้คะแนนของรายวิชา ทั้งนี้ การประเมินบางส่วนอาจพิจารณาจากหลักฐานสะสมต่อเนื่องตลอดภาคการศึกษา เช่น process tracking, code review, commits, pull requests และการมีส่วนร่วมใน repository ของทีม 
 
 ---
 
-## ข้อเสนอการกระจายน้ำหนักคะแนน
+## การกระจายน้ำหนักคะแนน
 
 | องค์ประกอบการประเมิน | สัดส่วน | เหตุผล |
 | --- | ---: | --- |
-| แบบทดสอบรายบุคคล / Quiz / Diagnostic assessment | 20% | ใช้วัดความเข้าใจพื้นฐานของแต่ละคน และช่วยยืนยันว่าผู้เรียนเข้าใจ requirements, testing และแนวคิดสำคัญของวิศวกรรมซอฟต์แวร์จริง [file:23][file:9] |
-| งานโครงงานรายสัปดาห์ / Project artefacts | 20% | ครอบคลุม SRS, use case, class diagram, architecture และ artefacts สำคัญของการออกแบบและการพัฒนา [file:23][file:9] |
-| Unit test, CI, static analysis และ quality evidence | 15% | สะท้อนความสามารถด้าน testability, test automation, continuous integration และ quality control [file:12][file:5] |
-| งานนำเสนอระหว่างทาง / Milestone review / Progress check | 10% | ใช้ติดตามความก้าวหน้าและลดความเสี่ยงของการสะสมงานช่วงปลายภาค [file:23][file:12] |
-| สอบกลางภาค | 15% | ใช้วัดความเข้าใจเชิงทฤษฎีและการเชื่อมโยงเนื้อหาช่วงต้นถึงกลางภาค [file:23][file:9] |
-| สอบปลายภาค / Final demo / Oral defense | 10% | ประเมินความเข้าใจภาพรวมของระบบ การตัดสินใจเชิงออกแบบ และความสามารถในการอธิบายผลงานของตน [file:23][file:12] |
-| การมีส่วนร่วมในทีม / Peer evaluation / GitHub contribution | 10% | ใช้สะท้อนการทำงานร่วมกันจริงจาก issues, commits, pull requests, code review และ peer evaluation [file:23][file:12][file:5] |
+| แบบทดสอบรายบุคคล / Quiz / Diagnostic assessment | 20% | ใช้วัดความเข้าใจพื้นฐานของแต่ละคน และช่วยยืนยันว่าผู้เรียนเข้าใจ requirements, testing และแนวคิดสำคัญของวิศวกรรมซอฟต์แวร์จริง |
+| งานโครงงานรายสัปดาห์ / Project artefacts | 20% | ครอบคลุม SRS, use case, class diagram, architecture และ artefacts สำคัญของการออกแบบและการพัฒนา |
+| Unit test, CI, static analysis และ quality evidence | 15% | สะท้อนความสามารถด้าน testability, test automation, continuous integration และ quality control  |
+| งานนำเสนอระหว่างทาง / Milestone review / Progress check | 10% | ใช้ติดตามความก้าวหน้าและลดความเสี่ยงของการสะสมงานช่วงปลายภาค  |
+| สอบกลางภาค | 15% | ใช้วัดความเข้าใจเชิงทฤษฎีและการเชื่อมโยงเนื้อหาช่วงต้นถึงกลางภาค |
+| สอบปลายภาค / Final demo / Oral defense | 10% | ประเมินความเข้าใจภาพรวมของระบบ การตัดสินใจเชิงออกแบบ และความสามารถในการอธิบายผลงานของตน  |
+| การมีส่วนร่วมในทีม / Peer evaluation / GitHub contribution | 10% | ใช้สะท้อนการทำงานร่วมกันจริงจาก issues, commits, pull requests, code review และ peer evaluation  |
 | **รวม** | **100%** |  |
 
 ---
