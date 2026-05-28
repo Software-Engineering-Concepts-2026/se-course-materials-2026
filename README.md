@@ -20,7 +20,7 @@
 | **1** | **Introduction to Software Engineering & SDLC**<br>• นิยามวิศวกรรมซอฟต์แวร์ ความแตกต่างจากวิทยาการคอมพิวเตอร์และงาน Coding ทั่วไป<br>• รู้จักแนวคิดกระบวนการ SDLC (Waterfall, Iterative, Agile/Scrum เบื้องต้น)<br>• การทำงานร่วมกันเป็นทีมและบทบาทหน้าที่ในโปรเจกต์ (Teamwork Concepts) | **Team Formation & Tool Setup**<br>• จัดกลุ่มนักศึกษา (ประมาณ 5 คน/กลุ่ม ได้ ~18 ทีม)<br>• แนะนำการใช้งาน GitHub Organization ร่วมกันในระดับทีม<br>• ระดมสมองคิดหัวข้อโปรเจกต์ (Project Idea Generation) | • สรุปรายชื่อสมาชิกทีม หน้าที่ และขอบเขตหัวข้อโปรเจกต์ขั้นต้น (ส่งผ่าน GitHub Issues) |
 | **2** | **Strategic Learning: Adversarial Assessment #1**<br>• 🧪 **[สอบจับผิด 1 ชม.]** กิจกรรม "สอบจับผิด" ดัดหลัง AI โดยให้ตรวจเอกสารความต้องการระบบที่เจนด้วย AI ซึ่งมีข้อผิดพลาดเนียนๆ 3-4 จุด เพื่อทดสอบ Schema ความเข้าใจพื้นฐานรายบุคคล<br>• [บรรยาย 1 ชม.] Software Requirements & Elicitation (Functional / Non-functional Requirements) | **Requirements Elicitation Workshop**<br>• ฝึกทำ User Interview จำลองสถานการณ์เป็น Client และ Developer เพื่อเก็บความต้องการระบบจริงของโปรเจกต์กลุ่ม<br>• การประยุกต์ใช้ LLMs ในฐานะเครื่องมือช่วยขัดเกลาและจัดประเภทความต้องการ (แต่อยู่ภายใต้การตรวจสอบของผู้เรียน) | • **คะแนนเดี่ยว (1):** Quiz จับผิดเอกสารความต้องการระบบ<br>• บันทึกสรุปความต้องการของโปรเจกต์กลุ่ม (Draft Functional Requirements) ลงใน Repository |
 | **3** | **Software Requirements Specification (SRS)**<br>• โครงสร้างเอกสาร SRS ตามมาตรฐาน IEEE 830<br>• เทคนิคการเขียนความต้องการที่สามารถตรวจสอบได้ (Verifiable Requirements) และพฤติกรรมระบบ | **SRS Drafting & GitHub Management**<br>• สมาชิกในกลุ่มช่วยกันร่างเอกสาร SRS เวอร์ชันแรก<br>• เรียนรู้การแปลง Requirements ไปเป็น Task หรือ Ticket บนระบบ GitHub Projects (Kanban Board) | • **Deliverable:** เอกสาร SRS ร่างแรก (Markdown บน GitHub)<br>• บอร์ดงานบน GitHub Projects ที่แตกย่อยเป็น Task พร้อมกำหนดผู้รับผิดชอบชัดเจน |
-| **4** | **System Modeling & UML (Behavioral Aspect)**<br>• แนวคิดระเบียบวิธีการออกแบบ (Design Methodologies)<br>• การจำลองระบบด้วย Use Case Diagram และ Description<br>• การสื่อสารสถาปัตยกรรมระบบขั้นพื้นฐาน | **Use Case Modeling & Peer Review**<br>• 各กลุ่มร่วมกันสร้าง Use Case Diagram สำหรับโปรเจกต์ของตนเอง<br>• แลกเปลี่ยนกันรีวิว Use Case ระหว่างกลุ่ม เพื่อค้นหาจุดบกพร่องและขอบเขตระบบที่ยังไม่ชัดเจน | • **Deliverable:** Use Case Diagram และ Use Case Description ของแต่ละฟังก์ชันหลักในรูปแบบไฟล์รูปภาพ/Markdown บน Git |
+| **4** | **System Modeling & UML (Behavioral Aspect)**<br>• แนวคิดระเบียบวิธีการออกแบบ (Design Methodologies)<br>• การจำลองระบบด้วย Use Case Diagram และ Description<br>• การสื่อสารสถาปัตยกรรมระบบขั้นพื้นฐาน | **Use Case Modeling & Peer Review**<br>• กลุ่มร่วมกันสร้าง Use Case Diagram สำหรับโปรเจกต์ของตนเอง<br>• แลกเปลี่ยนกันรีวิว Use Case ระหว่างกลุ่ม เพื่อค้นหาจุดบกพร่องและขอบเขตระบบที่ยังไม่ชัดเจน | • **Deliverable:** Use Case Diagram และ Use Case Description ของแต่ละฟังก์ชันหลักในรูปแบบไฟล์รูปภาพ/Markdown บน Git |
 | **5** | **Structural Modeling & Basic Design Principles**<br>• การออกแบบระดับโครงสร้างด้วย Class Diagram (Attributes, Methods, Relationships)<br>• หลักการออกแบบเบื้องต้นเบื้องหลังความคุ้มค่า (High Cohesion, Low Coupling และ Separation of Concerns) | **Class Diagram & Database Schema Mapping**<br>• เขียน Class Diagram ของระบบให้สอดคล้องกับฐานข้อมูลที่เคยเรียนมา<br>• ปรับปรุง Class Diagram ให้รองรับ Business Logic ของโปรเจกต์ | • **Deliverable:** Class Diagram ร่างแรก<br>• **Note:** เริ่มเน้นย้ำเกณฑ์ Process Tracking (ความถี่ในการอัปเดตไฟล์บน Git) |
 | **6** | **Software Architecture & Secure Coding Foundations**<br>• ภาพรวมสถาปัตยกรรมซอฟต์แวร์ (Architectural Design: MVC, Layered, Client-Server)<br>• พื้นฐานความปลอดภัย (Basic Security Requirements): การตระหนักรู้ภัยคุกคาม เช่น Injection, Broken Authentication และแนวคิดการเข้ารหัสข้อมูลสำคัญ | **Architectural & Security Mapping**<br>• นิสิตร่วมกันกำหนด Architecture Pattern และเทคโนโลยีที่จะเลือกใช้ในโปรเจกต์<br>• วิเคราะห์หาจุดเสี่ยงด้านความปลอดภัยของโปรเจกต์กลุ่ม และออกแบบระบบป้องกันขั้นต้น (เช่น การแฮชรหัสผ่าน) | • **Deliverable:** แผนภาพสถาปัตยกรรมซอฟต์แวร์ระบบ (Architecture Diagram) และรายการความปลอดภัยทางเทคนิคที่ต้องระวัง |
 | **7** | **Collaborative Construction & Version Control Workflow**<br>• มาตรฐานการเขียนโค้ด (Coding Standards) และระเบียบวิธีสร้างซอฟต์แวร์ร่วมกัน<br>• การทำงานแบบ Collaborative Git ขั้นสูง (Git Branching Strategies: GitHub Flow/Gitflow, Pull Requests, Merge Conflict Resolution) | **Git Collaborative Lab**<br>• กิจกรรมจำลองการเกิด Merge Conflict เพื่อฝึกให้นิสิตรู้วิธีแก้ไขร่วมกัน<br>• เริ่มต้นตั้งโครงสร้างโปรเจกต์ทีม (Project Initialization) และสร้าง Git Branch สำหรับฟีเจอร์แรก | • **Deliverable:** โครงร่างซอฟต์แวร์ (Project Skeleton Code) ที่ Push ขึ้น GitHub Main Branch และการแยก Branch ทำงานรายบุคคลอย่างมีระบบ |
@@ -57,31 +57,30 @@
 
 ## 📚 คลังข้อมูลและหนังสืออ้างอิงหลักประจำรายวิชา (Course References & Syllabus Core Data)
 
-รายวิชานี้ผ่านการออกแบบโดยบูรณาการองค์ความรู้และทักษะจากทรัพยากรวิศวกรรมซอฟต์แวร์สากลชั้นนำ ดังรายชื่อ VERBATIM ต่อไปนี้:
+รายวิชานี้ผ่านการออกแบบโดยบูรณาการองค์ความรู้และทักษะจากทรัพยากรวิศวกรรมซอฟต์แวร์สากลชั้นนำ ดังรายชื่อต่อไปนี้:
 
 ### ตำราหลักและแนวคิดวิศวกรรมซอฟต์แวร์สมัยใหม่ (Core Textbooks)
-* `Fundamentals of Software Engineering_ From Coder to Engineer -- Nathaniel Schutta & Dan Vega -- 2026 -- 03fa27e9885e055ca5bfdc2238f01ca7 -- Anna’s Archive_3.pdf`
+* `Fundamentals of Software Engineering_ From Coder to Engineer -- Nathaniel Schutta & Dan Vega -- 2026`
 * `(Global_Edition)_Ian_Sommerville_-_Software_Engineering_10th_Edition-Pearson_(2016)_3.pdf`
-* `Engineering_Software_Products__An_Introduction_to_Modern_--_Ian_Sommerville_--_1_2019_--_Pearson_--_9780135210642_--_b87629f789800b0b6dc89f1b4e51b5ba_--_Annas_Archive_3.pdf`
-* `Copy of Ian Sommerville - Engineering Software Products_ An Introduction to Modern Software Engineering (2020, Pearson) - libgen.li_3.pdf`
-* `A Concise Introduction to Software Engineering - With Open -- Pankaj Jalote -- Undergraduate Topics in Computer Science, 2, 2025 -- SPRINGER -- 9783031743177 -- 9d87a967fb2baa82c1c70756f4b88bef -- Anna’s Archiv_3.pdf`
-* `Modern Software Engineering_ Doing What Really Works to -- David  Farley; Trisha Gee -- 1, 2022 -- Pearson Education, Limited; Addison-Wesley -- isbn13 9780137314782 -- Anna’_3.pdf`
-* `Modern Software Engineering_ Doing What Works to Build -- David Farley -- 2021 -- Addison-Wesley Professional -- ee860ccb1adf33439d7a4e52b2a54910 -- Anna’s Archive_3.pdf`
-* `New Challenges in Software Engineering_ Volume 1 -- Jezreel Mejía · Mirna Muñoz · Alvaro Rocha · Francisco -- 1, 2025 -- Springer -- e6f584cdf0dc96349b55650ee43f24ad -- Anna’s Archive_3.pdf`
-* `Responsible Software Engineering (for True Epub) -- Daniel J_ Barrett -- 2025 -- O'Reilly Media, Inc_ -- 9914e4eb6f2414347f3de156ac9fabf0 -- Anna’s Archive_3.pdf`
+* `Engineering_Software_Products__An_Introduction_to_Modern_--_Ian_Sommerville_--_1_2019_--_Pearson_--_9780135210642`
+* `A Concise Introduction to Software Engineering - With Open -- Pankaj Jalote -- Undergraduate Topics in Computer Science, 2, 2025 -- SPRINGER -- 9783031743177`
+* `Modern Software Engineering_ Doing What Really Works to -- David  Farley; Trisha Gee -- 1, 2022 -- Pearson Education, Limited; Addison-Wesley - 9780137314782`
+* `Modern Software Engineering_ Doing What Works to Build -- David Farley -- 2021 -- Addison-Wesley Professional`
+* `New Challenges in Software Engineering_ Volume 1 -- Jezreel Mejía · Mirna Muñoz · Alvaro Rocha · Francisco -- 1, 2025 -- Springer`
+* `Responsible Software Engineering -- Daniel J_ Barrett -- 2025 -- O'Reilly Media, Inc_`
 
 ### การจัดการทีมและกระบวนการทำงานร่วมกัน (Agile & Team Leadership)
-* `Agile Retrospectives_ Making Good Teams Great -- Esther Derby, Diana Larsen, Ken Schwaber -- July 26, 2006 -- Pragmatic Bookshelf -- isbn13 9780977616640 -- 402d3b067314377da567f88e4d162b0e -- Anna’s Archive_3.pdf`
-* `From Culture to Code_Leading Software Engineering Teams -- Sosa J_ -- 2025 -- 2f316deefdbc6ae93bd3e0936e46475f -- Anna’s Archive_3.pdf`
-* `Learning Git_ A Hands-On and Visual Guide to the Basics of -- Anna Skoulikari -- 1, 2023 -- O'Reilly Media -- 9781098133917 -- 8ec4aacd108f1f44e94dec36576c0d16 -- Anna’s Archive_3.pdf`
+* `Agile Retrospectives_ Making Good Teams Great -- Esther Derby, Diana Larsen, Ken Schwaber -- July 26, 2006 -- Pragmatic Bookshelf`
+* `From Culture to Code_Leading Software Engineering Teams -- Sosa J_ -- 2025`
+* `Learning Git_ A Hands-On and Visual Guide to the Basics of -- Anna Skoulikari -- 1, 2023 -- O'Reilly Media -- 9781098133917`
 
 ### สถาปัตยกรรมและการจัดการคุณภาพโค้ด (Architecture & Clean Code)
-* `Fundamentals of Software Architecture_ A Modern Engineering -- Mark Richards, Neal Ford -- 2, 2025 mar 25 -- O'Reilly Media, Incorporated -- isbn13 9781098175511 -- ac481e941fa04cff91ea6b8f9adcc01a -- Anna’s Ar_3.pdf`
-* `Software Architecture_ The Hard Parts_ Modern Trade-Off -- Neal Ford & Mark Richards & Pramod Sadalage & Zhamak -- 1, PS, 2021 -- O'Reilly Media, -- isbn13 9781492086895 -- 6abdba667e209c75f49d97e44bc16b5c -- A_3.pdf`
-* `Good Code, Bad Code _ Think Like a Software Engineer -- Tom Long, (Software engineer) -- 1st edition, Erscheinungsort nicht ermittelbar, 2021 -- isbn13 9781617298936 -- 86efc5fa6411ffe18da6cc3799fe530e -- Anna’_3.pdf`
-* `Grokking Simplicity _ Taming Complex Software with -- Eric Normand, (Desarrollador de software) -- Simon & Schuster, New York, 2021 -- Simon and -- isbn13 9781617296208 -- c8db3770d6b36a49587c827cec7964ed -- An_3.pdf`
-* `Hands-On Software Engineering with Python, 2nd Edition -- Brian Allbee -- 2, 2025 -- Packt Publishing -- c7c95a93c0de906ee4f6a65fd0cb45f3 -- Anna’s Archive_3.pdf`
-* `Soft Computing_ Engineering Applications (Edge AI in Future -- Pradip Debnath & Binod Chandra Tripathy -- 1, PT, 2025 -- CRC Press -- isbn13 9781032738529 -- cdb628b0d2b32ae91da974c3e45ab704 -- Anna’s Archive_3.pdf`
+* `Fundamentals of Software Architecture_ A Modern Engineering -- Mark Richards, Neal Ford -- 2, 2025 mar 25 -- O'Reilly Media, Incorporated -- isbn13 9781098175511`
+* `Software Architecture_ The Hard Parts_ Modern Trade-Off -- Neal Ford & Mark Richards & Pramod Sadalage & Zhamak -- 1, PS, 2021 -- O'Reilly Media, -- isbn13 9781492086895`
+* `Good Code, Bad Code _ Think Like a Software Engineer -- Tom Long, (Software engineer) -- 1st edition, Erscheinungsort nicht ermittelbar, 2021 -- isbn13 9781617298936`
+* `Grokking Simplicity _ Taming Complex Software with -- Eric Normand, (Desarrollador de software) -- Simon & Schuster, New York, 2021 -- Simon and -- isbn13 9781617296208`
+* `Hands-On Software Engineering with Python, 2nd Edition -- Brian Allbee -- 2, 2025 -- Packt Publishing`
+* `Soft Computing_ Engineering Applications (Edge AI in Future -- Pradip Debnath & Binod Chandra Tripathy -- 1, PT, 2025 -- CRC Press -- isbn13 9781032738529`
 
 ### แหล่งเรียนรู้ บล็อกวิศวกรรม และกรณีศึกษาจากอุตสาหกรรม (Tech Blogs & Platforms)
 * `The latest from GitHub's engineering team - The GitHub Blog_3`
