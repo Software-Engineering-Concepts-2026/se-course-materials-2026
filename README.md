@@ -35,64 +35,18 @@
 
 ---
 
-## 📊 วิธีการประเมินผล (Assessment Ratios)
+นี่คือข้อความที่นำลิงก์ (และข้อความอ้างอิงของลิงก์) ออกเรียบร้อยแล้วครับ โดยคงโครงสร้างรูปแบบ Markdown ไว้ตามเดิม:
 
-การประเมินผลแบ่งออกเป็น 3 ส่วนหลัก เน้นร่องรอยการทำงานและการพิสูจน์ความเข้าใจจริงเพื่อสกัดกั้นภาวะ Never-skilling:
+## ข้อเสนอการกระจายน้ำหนักคะแนน
 
-### 1. กระบวนการทำงานและการเก็บร่องรอย (Process Tracking) [35%]
-ประเมินบนระบบ GitHub Organization อิงจากร่องรอยเชิงวิศวกรรมจริง:
-* **Git Commit History (15%):** ตรวจสอบประวัติและการกระจายตัวของ Commit เป็นรายบุคคล *(หากชี้ว่าคนใดโผล่มางอกโค้ด 500 บรรทัดในคืนเดียวก่อนส่งโดยไม่มีประวัติการทำทีละส่วนย่อยย่อมได้ 0 คะแนนในส่วนนั้น)*
-* **GitHub Project Board & Pull Requests Activity (20%):** วัดจากการจัดการตั๋วงานบน Kanban และร่องรอยการพิมพ์คอมเมนต์ถกเถียง คัดค้าน หรือรีวิวโค้ดให้เพื่อนบน Pull Request เพื่อพิสูจน์พฤติกรรมการคิดจริง (Agentic Workflow)
+| องค์ประกอบการประเมิน | สัดส่วน | เหตุผล |
+| --- | --- | --- |
+| แบบทดสอบรายบุคคล / Quiz / Diagnostic assessment | 20% | ใช้วัดความเข้าใจพื้นฐานของแต่ละคน และช่วยยืนยันว่าผู้เรียนเข้าใจ requirements, testing และแนวคิดสำคัญของ SE จริง ไม่ได้พึ่งพาเพื่อนหรือ AI เพียงอย่างเดียว |
+| งานโครงงานรายสัปดาห์ / Artefacts | 20% | ครอบคลุม SRS, use case, class diagram, architecture, test case, refactoring note และเอกสารประกอบที่ต้องส่งต่อเนื่องตลอดเทอม |
+| Unit test, CI, static analysis และ quality evidence | 15% | สะท้อนความสามารถด้าน testability, automation, continuous integration และ quality control ซึ่งเป็นหัวใจของการพัฒนาซอฟต์แวร์สมัยใหม่ |
+| งานนำเสนอระหว่างทาง / Milestone review / Progress check | 10% | ใช้ติดตามความก้าวหน้าและให้ feedback ก่อนจบโครงงาน ลดความเสี่ยงที่ทีมจะทำงานล่าช้าจนแก้ไม่ทัน |
+| สอบกลางภาค | 15% | ใช้วัดความเข้าใจเชิงทฤษฎีและการเชื่อมโยงเนื้อหาช่วงต้นถึงกลางภาค โดยเฉพาะ SDLC, requirements, modeling และ design |
+| สอบปลายภาค หรือ Final oral defense | 10% | ประเมินความเข้าใจภาพรวมของระบบ การตัดสินใจเชิงออกแบบ และการสะท้อนผลการพัฒนาในระดับรายบุคคล |
+| การมีส่วนร่วมในทีม / peer evaluation / Git activity | 10% | ใช้สะท้อนการทำงานร่วมกันจริงจาก GitHub issues, commits, pull requests, code review และการสื่อสารภายในทีม |
 
-### 2. การทดสอบและยืนยันความเข้าใจรายบุคคล (Individual Core Assessment) [35%]
-* **In-Class Adversarial Quizzes (15%):** คะแนนจากการสอบ "จับผิด" ในสัปดาห์ที่ 2 และ 9 คัดกรองผ่านระบบปรนัย/เติมคำสั้นใน LMS เพื่อเช็กว่าผู้เรียนมี Schema พื้นฐานพอที่จะตรวจสอบความถูกต้องของระบบได้จริง
-* **AI-Driven Oral Exam & Defense (20%):** ในสัปดาห์สุดท้าย นิสิตต้องนำโค้ดส่วนที่ตนรับผิดชอบไปทดสอบปากเปล่ากับบอทแชทที่กำหนด (เช่น Custom GPT หรือ Claude Projects) ตัวบอทจะใช้ Socratic Method ยิงคำถามจี้ถามทีละคนเพื่อวัดความเข้าใจจริง
-  > ⚠️ **นโยบายสุ่มตรวจ:** อาจารย์จะเข้าไปตรวจสอบปากเปล่าด้วยตนเอง (Manual Viva) เฉพาะกลุ่มหรือรายบุคคลที่ AI ติดธงแดง (**Red Flag**) ว่ามีแนวโน้มก๊อปปี้งานมาหรือตอบคำถามไม่ได้เท่านั้น เพื่อบริหารจัดการเวลาอย่างมีประสิทธิภาพสูงสุด
-
-### 3. ชิ้นงานและเอกสารซอฟต์แวร์สุดท้าย (Final Product Artifacts) [30%]
-* **SRS, UML Diagrams & Retrospective Documents (10%):** คะแนนความสมบูรณ์ ความสอดคล้องเชิงโครงสร้าง และความถูกต้องทางวิศวกรรมของเอกสารกลุ่ม
-* **Software Functionality & Quality (20%):** วัดจากฟังก์ชันการใช้งาน ความปลอดภัยพื้นฐานที่กำหนดไว้ และการส่งผ่านซอฟต์แวร์สำเร็จรูปที่ผ่านการทดสอบอัตโนมัติบนระบบ CI Pipeline (GitHub Actions)
-
----
-
-## 📚 คลังข้อมูลและหนังสืออ้างอิงหลักประจำรายวิชา (Course References & Syllabus Core Data)
-
-รายวิชานี้ผ่านการออกแบบโดยบูรณาการองค์ความรู้และทักษะจากทรัพยากรวิศวกรรมซอฟต์แวร์สากลชั้นนำ ดังรายชื่อต่อไปนี้:
-
-### ตำราหลักและแนวคิดวิศวกรรมซอฟต์แวร์สมัยใหม่ (Core Textbooks)
-* `Fundamentals of Software Engineering_ From Coder to Engineer -- Nathaniel Schutta & Dan Vega -- 2026`
-* `(Global_Edition)_Ian_Sommerville_-_Software_Engineering_10th_Edition-Pearson_(2016)_3.pdf`
-* `Engineering_Software_Products__An_Introduction_to_Modern_--_Ian_Sommerville_--_1_2019_--_Pearson_--_9780135210642`
-* `A Concise Introduction to Software Engineering - With Open -- Pankaj Jalote -- Undergraduate Topics in Computer Science, 2, 2025 -- SPRINGER -- 9783031743177`
-* `Modern Software Engineering_ Doing What Really Works to -- David  Farley; Trisha Gee -- 1, 2022 -- Pearson Education, Limited; Addison-Wesley - 9780137314782`
-* `Modern Software Engineering_ Doing What Works to Build -- David Farley -- 2021 -- Addison-Wesley Professional`
-* `New Challenges in Software Engineering_ Volume 1 -- Jezreel Mejía · Mirna Muñoz · Alvaro Rocha · Francisco -- 1, 2025 -- Springer`
-* `Responsible Software Engineering -- Daniel J_ Barrett -- 2025 -- O'Reilly Media, Inc_`
-
-### การจัดการทีมและกระบวนการทำงานร่วมกัน (Agile & Team Leadership)
-* `Agile Retrospectives_ Making Good Teams Great -- Esther Derby, Diana Larsen, Ken Schwaber -- July 26, 2006 -- Pragmatic Bookshelf`
-* `From Culture to Code_Leading Software Engineering Teams -- Sosa J_ -- 2025`
-* `Learning Git_ A Hands-On and Visual Guide to the Basics of -- Anna Skoulikari -- 1, 2023 -- O'Reilly Media -- 9781098133917`
-
-### สถาปัตยกรรมและการจัดการคุณภาพโค้ด (Architecture & Clean Code)
-* `Fundamentals of Software Architecture_ A Modern Engineering -- Mark Richards, Neal Ford -- 2, 2025 mar 25 -- O'Reilly Media, Incorporated -- isbn13 9781098175511`
-* `Software Architecture_ The Hard Parts_ Modern Trade-Off -- Neal Ford & Mark Richards & Pramod Sadalage & Zhamak -- 1, PS, 2021 -- O'Reilly Media, -- isbn13 9781492086895`
-* `Good Code, Bad Code _ Think Like a Software Engineer -- Tom Long, (Software engineer) -- 1st edition, Erscheinungsort nicht ermittelbar, 2021 -- isbn13 9781617298936`
-* `Grokking Simplicity _ Taming Complex Software with -- Eric Normand, (Desarrollador de software) -- Simon & Schuster, New York, 2021 -- Simon and -- isbn13 9781617296208`
-* `Hands-On Software Engineering with Python, 2nd Edition -- Brian Allbee -- 2, 2025 -- Packt Publishing`
-* `Soft Computing_ Engineering Applications (Edge AI in Future -- Pradip Debnath & Binod Chandra Tripathy -- 1, PT, 2025 -- CRC Press -- isbn13 9781032738529`
-
-### แหล่งเรียนรู้ บล็อกวิศวกรรม และกรณีศึกษาจากอุตสาหกรรม (Tech Blogs & Platforms)
-* `The latest from GitHub's engineering team - The GitHub Blog_3`
-* `ByteByteGo | Top 9 Engineering Blogs_3`
-* `Docker Blog | Docker_3`
-* `Blog Overview | bol - Techlab_3`
-* `Blog CodeIT Blog — Software Development Insights & Tech Trends_3`
-* `Custom Software Development Blog | SCAND_3`
-* `DEV Community_3`
-* `freeCodeCamp Programming Tutorials: Python, JavaScript, Git & More_3`
-* `Software News - Software Development News, Internet, World Wide Web_3`
-* `The Daily WTF: Curious Perversions in Information Technology_3`
-* `How to grow your ecommerce business internationally (with examples)_3`
-* `Attention Required! | Cloudflare_3`
 
