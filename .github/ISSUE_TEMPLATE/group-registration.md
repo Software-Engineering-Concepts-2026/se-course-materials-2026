@@ -12,10 +12,11 @@ labels: ["status: pending-review"]
 ### 👥 รายชื่อสมาชิกในกลุ่ม (Members)
 | ลำดับ | รหัสนิสิต | ชื่อ-นามสกุล | GitHub Username | บทบาทในทีม (Roles) |
 | :---: | :---: | :--- | :---: | :--- |
-| 1 (หัวหน้า) | 65xxxxxx | นายสมชาย สายโค้ด | @Somchayeee | Backend Developer |
+| 1 (หัวหน้า) | 65xxxxxx | นายสมชาย สายโค้ด | @Somchayeee | Project Manager |
 | 2 | 65xxxxxx | นางสาวสมศรี มีดีไซน์ | @SomsriDesign | UI/UX / Frontend |
 | 3 | 65xxxxxx | นายสมศักดิ์ รักเทส | @SomsakTest | QA / Tester |
 | 4 | 65xxxxxx | นายสมปอง ลองระบบ | @SompongDev | Frontend Developer |
+| 4 | 65xxxxxx | นายสมปอง ลองทดสอบ | @SompongDev | Backend Developer |
 
 ### 📞 ช่องทางการติดต่อผู้ประสานงานหลัก
 - **ผู้ประสานงาน:** นายสมชาย สายโค้ด
