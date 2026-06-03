@@ -1,160 +1,46 @@
-# รายวิชา: Software Engineering Concepts
+## **Course Syllabus: แนวคิดวิศวกรรมซอฟต์แวร์ (Software Engineering Concepts)**
 
-## คำอธิบายรายวิชา
-รายวิชานี้ออกแบบสำหรับนักศึกษาวิทยาการคอมพิวเตอร์ชั้นปีที่ 3 โดยมุ่งพัฒนาความสามารถในการสร้างซอฟต์แวร์อย่างเป็นระบบตั้งแต่การเก็บความต้องการ การออกแบบ การพัฒนา การทดสอบ การประกันคุณภาพ ความปลอดภัย การบำรุงรักษา และการส่งมอบระบบ โดยใช้โครงงานทีมเป็นแกนกลางของการเรียนรู้ตลอดภาคการศึกษา [file:9][file:12] แนวทางของรายวิชานี้สอดคล้องกับลำดับหัวข้อหลักของวิศวกรรมซอฟต์แวร์ ได้แก่ SDLC, requirements, modeling, architecture, construction, testing, quality assurance, maintenance, project management และ teamwork ตามเอกสารประกอบรายวิชาที่แนบมา [file:5][file:9][file:12]
+### **คำอธิบายรายวิชา (Course Description)**
 
-รายวิชายังบูรณาการการใช้ Generative AI หรือ LLMs เข้าไปในทุกช่วงของวงจรการพัฒนาซอฟต์แวร์ โดยยึดหลักว่า AI เป็นเครื่องมือช่วยเพิ่มผลิตภาพ ไม่ใช่ผู้แทนที่การตัดสินใจเชิงวิศวกรรมของมนุษย์ [file:5][file:12] นักศึกษาจะได้ฝึกเปลี่ยนจากการใช้ AI เพื่อ “ช่วยเขียนโค้ด” แบบไม่มีทิศทาง ไปสู่การใช้ AI ภายใต้ข้อกำหนด กระบวนการ และหลักฐานตรวจสอบได้ หรือที่สรุปเป็นแนวคิด Vibe Engineering [file:12][file:17]
+รายวิชานี้จะพานิสิตดำดิ่งสู่โลกของวิศวกรรมซอฟต์แวร์สมัยใหม่ ตั้งแต่ปรัชญาและวินัยของช่างฝีมือซอฟต์แวร์ (Software Craftsmanship) ไปจนถึงกระบวนการและเครื่องมือที่ใช้ในอุตสาหกรรมเทคโนโลยีชั้นนำในปัจจุบัน นิสิตจะได้เรียนรู้ตลอดวงจรชีวิตการพัฒนาผลิตภัณฑ์ (Software Development Life Cycle) ผ่านการลงมือปฏิบัติจริง ตั้งแต่การทำความเข้าใจความต้องการของผู้ใช้, การออกแบบสถาปัตยกรรมที่ยืดหยุ่น, การเขียนโค้ดที่สะอาดและง่ายต่อการบำรุงรักษา, การสร้างวัฒนธรรมคุณภาพผ่านการทดสอบอัตโนมัติ, ไปจนถึงการส่งมอบซอฟต์แวร์อย่างต่อเนื่องผ่านกระบวนการ DevOps และ CI/CD โดยตลอดทั้งรายวิชาจะมีการสอดแทรกการใช้เครื่องมือปัญญาประดิษฐ์ (Generative AI) เพื่อเพิ่มผลิตภาพและยกระดับการทำงานในฐานะวิศวกรซอฟต์แวร์แห่งศตวรรษที่ 21
 
-## เป้าหมายรายวิชา
-เมื่อสิ้นสุดรายวิชา นักศึกษาควรสามารถวิเคราะห์ปัญหาและพัฒนาซอฟต์แวร์ด้วยกระบวนการทางวิศวกรรมที่เป็นระบบ พร้อมทั้งใช้ LLMs อย่างรับผิดชอบในการสนับสนุนงานด้าน requirements, design, implementation, testing, review และ deployment โดยยังคงให้มนุษย์เป็นผู้ตรวจสอบและรับผิดชอบผลลัพธ์สุดท้าย [file:9][file:12][file:17]
+### **วัตถุประสงค์การเรียนรู้ (Learning Objectives)**
 
-## Learning Outcomes (CLOs)
+เมื่อสิ้นสุดการเรียนการสอน นิสิตจะสามารถ:
+1.  ประยุกต์ใช้ปรัชญาและหลักการออกแบบซอฟต์แวร์ที่สำคัญได้ (ETC, DRY, Orthogonality)
+2.  ออกแบบและจัดทำเอกสารสถาปัตยกรรมซอฟต์แวร์โดยใช้แนวปฏิบัติสมัยใหม่ (C4 Model, ADRs)
+3.  พัฒนาซอฟต์แวร์โดยใช้วินัย Test-Driven Development (TDD) และสร้างชุดทดสอบอัตโนมัติที่ครอบคลุม
+4.  สร้างและบริหารจัดการท่อส่ง CI/CD อัตโนมัติด้วย GitHub Actions เพื่อทำการทดสอบและส่งมอบ Docker Image
+5.  ประยุกต์ใช้หลักการความปลอดภัยพื้นฐานในการพัฒนาแอปพลิเคชัน (Input Validation, Secret Management)
+6.  วิเคราะห์, ระบุ, และลงมือปรับปรุงโครงสร้างโค้ด (Refactoring) เพื่อชำระหนี้ทางเทคนิค (Technical Debt)
+7.  สื่อสารแนวคิดทางเทคนิคและนำเสนอผลงานโครงการได้อย่างมืออาชีพ
+8.  ใช้เครื่องมือ Generative AI (GitHub Copilot, ChatGPT) เพื่อช่วยในกระบวนการพัฒนาซอฟต์แวร์ได้อย่างมีประสิทธิภาพและมีวิจารณญาณ
 
-| CLO | คำอธิบายผลลัพธ์การเรียนรู้ |
-|---|---|
-| CLO1 | อธิบายหลักการสำคัญของ SDLC, software process models, agile practices, และบทบาทของ artefacts ในวิศวกรรมซอฟต์แวร์ได้ [file:5][file:9] |
-| CLO2 | เก็บ ร่าง และตรวจสอบ software requirements ได้ ทั้งในรูป SRS, user stories, use cases และ acceptance criteria [file:1][file:9] |
-| CLO3 | ออกแบบระบบในระดับ architecture และ detailed design โดยอธิบาย trade-offs และเหตุผลเชิงวิศวกรรมได้ [file:9][file:12] |
-| CLO4 | พัฒนาซอฟต์แวร์แบบทำงานเป็นทีมโดยใช้ coding standards, version control, code review และ collaborative workflow ได้ [file:5][file:12] |
-| CLO5 | สร้างและประยุกต์ใช้ unit tests, integration tests, static analysis และ quality gates เพื่อยกระดับคุณภาพซอฟต์แวร์ได้ [file:5][file:9][file:12] |
-| CLO6 | ประยุกต์ใช้แนวคิด secure coding, security requirements, maintenance, refactoring และ CI/CD เบื้องต้นกับโครงงานจริงได้ [file:9][file:12] |
-| CLO7 | ใช้ Prompt Engineering และ LLMs อย่างมีจริยธรรม โปร่งใส และตรวจสอบได้ภายใต้ AI policy ของรายวิชาและของทีม [file:5][file:12][file:17] |
+### **เอกสารอ้างอิงเพื่อการศึกษาค้นคว้าหลัก (Core References)**
 
-## โครงสร้างการเรียนรู้รายสัปดาห์
+*   **[ESP]** Sommerville, I. (2019). *Engineering Software Products: An Introduction to Modern Software Engineering*. Pearson.
+*   **[PP]** Hunt, A., & Thomas, D. (2019). *The Pragmatic Programmer: Your Journey to Mastery* (2nd ed.). Addison-Wesley Professional.
+*   **[SCG]** Herszfang, H. P., & Henstock, P. V. (2025). *Supercharged Coding with GenAI*. Packt Publishing.
 
-| Week | Lecture focus (2 ชม.) | Lab focus (2 ชม.) | Deliverables / Notes |
-|---|---|---|---|
-| 1 | ภาพรวมวิศวกรรมซอฟต์แวร์ยุค AI, ความต่างระหว่าง programming กับ software engineering, SDLC, บทบาททีม, แนวคิด Vibe Engineering [file:5][file:9][file:12] | ตั้งทีม, เลือกโจทย์, ระบุผู้ใช้และปัญหา, ร่าง project vision ด้วยการช่วยของ LLM แล้วตรวจความสมเหตุสมผล [file:5][file:12] | Project brief, team charter, initial AI usage agreement |
-| 2 | Prompt Engineering fundamentals: Five S’s, single-prompt, multi-prompt, prompt chaining, role prompting, context engineering, executable specifications [file:5][file:17] | ฝึกออกแบบ prompt สำหรับ requirement drafting, story decomposition, และ ambiguity checking [file:1][file:17] | Prompt library v1, prompt style guide |
-| 3 | AI policy สำหรับรายวิชา: สิ่งที่อนุญาต/ไม่อนุญาต, human-in-the-loop, disclosure, privacy, IP, academic integrity, quality gate ก่อนส่งงาน [file:5][file:12][file:17] | สร้าง Team AI Policy และ template บันทึก prompt/response/review ของทีม [file:12][file:17] | Team AI policy, AI usage log template |
-| 4 | Requirements engineering: elicitation, stakeholder analysis, FR/NFR, SRS structure, requirement quality, validation และ verification [file:1][file:9] | ทำ elicitation, แตกความต้องการทีละฟีเจอร์ด้วย LLM, เขียน SRS ร่างแรกและตรวจ ambiguity [file:1] | SRS draft v1, stakeholder summary, FR/NFR list |
-| 5 | Requirements representation และ modeling: use case, user stories, context model, traceability, acceptance criteria [file:1][file:9] | สร้าง context diagram, use case diagram, use case specification, user stories และ acceptance criteria [file:1][file:9] | Use case package, backlog v1, traceability matrix v1 |
-| 6 | Architecture and design: architectural drivers, patterns, 3-tier/MVC, API-first, class design, high cohesion/low coupling, trade-off analysis [file:9][file:12] | ให้ LLM เสนอ architecture alternatives แล้วให้ทีมวิเคราะห์และเลือก พร้อมร่าง class/component/API design [file:9][file:12] | ADR, architecture diagram, class diagram, API draft |
-| 7 | Construction and collaboration: coding standards, repo structure, Git workflow, issue management, AI pair programming with guardrails [file:5][file:12] | ตั้ง repository, branch strategy, issue/PR template, coding conventions, เริ่ม implementation increment แรก [file:5] | Repo setup, coding standard, first working increment |
-| 8 | AI risks in construction: automation bias, trust debt, hallucination in code, responsible SE, secure coding mindset; Midterm checkpoint [file:5][file:12][file:17] | Midterm review ของ requirement, design, repo และ AI-generated code โดยผู้เรียนต้องอธิบายเหตุผลของโค้ดได้ [file:12] | Midterm demo, revised SRS/design plan, AI audit note |
-| 9 | Testing fundamentals: test levels, unit testing, test design techniques, edge cases, assertions, testability [file:5][file:9] | เขียน unit tests ให้กับโมดูลจริงของทีม และใช้ LLM ช่วยสร้าง test ideas ก่อนคัดกรองด้วยมนุษย์ [file:5][file:12] | Unit tests v1, test case table, coverage baseline |
-| 10 | TDD, integration testing, regression testing และ “70% problem” ของ AI ในงานวิศวกรรมซอฟต์แวร์ [file:12][file:9] | ฝึก TDD กับฟีเจอร์ย่อย, เชื่อมหลายโมดูล, รัน integration tests และบันทึก defect [file:5][file:12] | TDD exercise, integration tests, defect log |
-| 11 | QA/QC: code review, inspections, static analysis, linting, metrics, review checklist และ quality gates [file:1][file:5][file:9] | ตั้งค่า linter/formatter/static analysis, ทำ peer review ผ่าน PR, ใช้ checklist ตรวจ style/correctness/security [file:5][file:12] | Review checklist, PR evidence, static analysis report |
-| 12 | Security for SE: security requirements, misuse cases, input validation, authentication/authorization basics, privacy awareness [file:9][file:12] | ระบุ security risks ของระบบ, เพิ่ม validation/error handling และ misuse cases [file:9][file:12] | Security note, misuse cases, secure coding fixes |
-| 13 | Maintenance and evolution: refactoring, technical debt, maintainability, documentation for evolution, few-shot prompting เพื่อคุม style ของทีม [file:9][file:12] | Refactor โค้ดจริงของทีม, เปรียบเทียบก่อน-หลัง, ให้ AI ช่วย refactor ตาม style guide แล้ว review [file:5][file:12] | Refactoring report, technical debt register, updated codebase |
-| 14 | Project management + DevOps: estimation, planning, Kanban/Scrum review, CI/CD, build automation, release readiness, deployment assistant [file:5][file:9][file:12] | ตั้ง CI ให้ run lint + tests + build ทุก PR, เตรียม deployment/readme และ demo environment [file:5][file:12] | CI pipeline, release checklist, deployment guide |
-| 15 | Final demo, oral defense, retrospective, peer evaluation, บทเรียนจากการใช้ AI ใน SDLC [file:9][file:12][file:17] | สาธิตระบบ, อธิบาย requirements-design-code-test-quality-security-AI policy, retrospective และ peer evaluation [file:12] | Final demo, final report, repository submission, retrospective |
+---
 
-## แผนที่ CLO กับกิจกรรมรายวิชา
+### **แผนการเรียนการสอน (16 สัปดาห์)**
 
-| CLO | สัปดาห์ที่เกี่ยวข้อง | หลักฐานการประเมิน |
-|---|---|---|
-| CLO1 | 1, 3, 14 | Quiz, discussion, process artifacts |
-| CLO2 | 4, 5 | SRS, use cases, user stories, traceability |
-| CLO3 | 6, 8 | ADR, architecture diagram, class diagram, oral review |
-| CLO4 | 7, 8, 11 | Git workflow evidence, PRs, code review records |
-| CLO5 | 9, 10, 11 | Unit tests, integration tests, coverage, QA reports |
-| CLO6 | 12, 13, 14 | Security notes, refactoring report, CI/CD pipeline |
-| CLO7 | 2, 3, 8, 15 | Prompt library, AI usage logs, policy compliance, oral defense |
-
-## AI Policy สำหรับรายวิชา
-
-### หลักการสำคัญ
-การใช้ Generative AI ในรายวิชานี้ได้รับอนุญาตอย่างเป็นทางการ แต่ต้องอยู่ภายใต้หลักความโปร่งใส ความรับผิดชอบ และการตรวจสอบโดยมนุษย์เสมอ [file:5][file:12] ผู้เรียนอาจใช้ AI เพื่อช่วยระดมความคิด สรุปข้อมูล ร่างเอกสาร เสนอแนวทางออกแบบ สร้าง test ideas ช่วย refactor และช่วยตรวจรูปแบบภาษาได้ แต่ไม่อาจยกความรับผิดชอบในการตัดสินใจทางวิศวกรรมให้ AI ได้ [file:12][file:17]
-
-### สิ่งที่อนุญาต
-- ใช้ LLM เพื่อช่วย brainstorm โจทย์ ปัญหา ผู้ใช้ และขอบเขตระบบ [file:5][file:12]
-- ใช้ช่วยร่าง SRS, user stories, acceptance criteria, diagrams description และ architecture alternatives โดยต้องมีการตรวจแก้โดยทีม [file:1][file:9][file:12]
-- ใช้ช่วยสร้าง code skeleton, test cases, refactoring suggestions, deployment steps และ documentation drafts ได้ [file:5][file:12]
-- ใช้ช่วยตรวจความกำกวมของ requirement หรือช่วยสร้าง checklist สำหรับ review ได้ [file:1][file:17]
-
-### สิ่งที่ไม่อนุญาต
-- ส่งงานที่คัดลอกผลลัพธ์จาก AI โดยไม่มี human review หรือไม่เข้าใจสิ่งที่ส่ง [file:5][file:12]
-- อ้างว่าเป็นผลงานที่สร้างเองทั้งหมดโดยไม่เปิดเผยว่า AI มีส่วนช่วย [file:12][file:17]
-- ป้อนข้อมูลลับ ข้อมูลส่วนบุคคล ข้อมูลที่มีข้อจำกัดด้านลิขสิทธิ์ หรือ credentials ลงในเครื่องมือ AI ที่ไม่ได้รับอนุญาต [file:5][file:12]
-- ใช้ AI เพื่อสร้างข้อมูลปลอม หลักฐานปลอม การทดสอบปลอม หรืออธิบายผลการทดลองที่ไม่ได้ทำจริง [file:12]
-
-### ข้อกำหนดการเปิดเผยการใช้ AI
-ทุกทีมต้องแนบ “AI Usage Disclosure” กับงานสำคัญ โดยอย่างน้อยต้องระบุ 4 รายการต่อไปนี้ [file:12][file:17]
-- ใช้เครื่องมือใด
-- ใช้ช่วยงานส่วนใด
-- ใช้ prompt ลักษณะใดหรือ workflow แบบใด
-- ทีมตรวจสอบ แก้ไข หรือยืนยันความถูกต้องอย่างไร
-
-### Human Review Requirement
-งานทุกชิ้นที่มี AI ช่วยต้องผ่านการตรวจจากมนุษย์ก่อนส่งเสมอ [file:12] สำหรับโค้ด ผู้เรียนต้องสามารถอธิบายตรรกะ โครงสร้างข้อมูล จุดเสี่ยง และเหตุผลในการเลือกแนวทางได้อย่างชัดเจน [file:5][file:12] สำหรับเอกสาร requirements และ design ผู้เรียนต้องสามารถอธิบายที่มาของแต่ละข้อกำหนด ความเชื่อมโยงกับ stakeholder และวิธีตรวจสอบได้ [file:1][file:9]
-
-## Prompt Engineering Guide แบบพร้อมใช้สอน
-
-### หลัก Five S’s
-การออกแบบ prompt ของรายวิชานี้ใช้หลัก Five S’s ได้แก่ Structured, Surrounding context, Single task, Specific และ Short เพื่อให้ผลลัพธ์มีความชัดเจนและลดความกำกวมในการสื่อสารกับ LLM [file:17]
-
-### รูปแบบ prompt แนะนำ
-1. **Requirement drafting prompt**: ระบุบริบทโครงการ ผู้ใช้หลัก เป้าหมาย และให้ AI สร้าง requirement ทีละ feature แทนการสั่งทั้งระบบในครั้งเดียว [file:1][file:17]
-2. **Validation prompt**: ให้ AI ตรวจ requirement ตามเกณฑ์ เช่น ambiguity, completeness, consistency, verifiability และ traceability [file:1]
-3. **Architecture prompt**: ให้ AI เสนอทางเลือก 2-3 แบบพร้อม trade-offs และข้อจำกัด แทนการขอคำตอบเดียว [file:9][file:12]
-4. **Testing prompt**: ระบุบทบาทเป็น test engineer, ป้อนฟังก์ชันหรือคลาสพร้อมข้อกำหนด แล้วให้ AI สร้าง unit tests ที่ครอบคลุม normal, boundary และ edge cases [file:5][file:12]
-5. **Refactoring prompt**: ให้ AI อธิบายปัญหาเดิม หลัก style guide ของทีม และโครงสร้างที่ต้องการก่อนเสนอ refactor [file:5][file:12]
-
-### ตัวอย่าง prompt แม่แบบ
-```text
-Role: You are a software requirements assistant.
-Context: Our team is building a web-based appointment system for a university clinic.
-Task: Draft only the functional requirements for the appointment booking feature.
-Constraints: Use clear “The system shall …” statements, avoid design decisions, and list ambiguities separately.
-Output format: 1) Functional requirements 2) Ambiguities/questions 3) Suggested acceptance criteria.
-```
-ตัวอย่างนี้สอดคล้องกับหลักการเขียน requirement ที่ควรมีความชัดเจน สม่ำเสมอ และตรวจสอบได้ โดยแยก requirement ออกจาก design และระบุ ambiguity ให้ตรวจทานต่อได้ [file:1]
-
-## รูปแบบงานและ artefacts หลักของรายวิชา
-
-| หมวดงาน | Artefacts หลัก |
-|---|---|
-| Requirements | Problem statement, stakeholder summary, SRS, FR/NFR list, use cases, user stories, traceability matrix |
-| Design | Architecture diagram, ADR, class diagram, API design, data model |
-| Construction | Repository, coding standard, issue board, pull requests, implementation increments |
-| Testing & QA | Unit tests, integration tests, coverage report, review checklist, static analysis report |
-| Security & Maintenance | Security note, misuse cases, refactoring report, technical debt register |
-| Delivery | CI/CD pipeline, release checklist, deployment guide, final demo, retrospective |
-| Responsible AI | Prompt library, AI policy, AI usage disclosure, AI audit note |
-
-## การประเมินผล
-
-| องค์ประกอบการประเมิน | สัดส่วนคะแนน |
-|---|---:|
-| Project deliverables ตลอดภาคการศึกษา | 40 |
-| Lab assignments / weekly artifacts | 20 |
-| Midterm review / checkpoint | 15 |
-| Final demo + oral defense | 15 |
-| Quiz / short individual checks | 5 |
-| Peer evaluation + retrospective | 5 |
-
-แนวทางนี้ให้น้ำหนักกับ artefacts และหลักฐานเชิงกระบวนการมากกว่าการวัดผลปลายทางเพียงอย่างเดียว ซึ่งสอดคล้องกับธรรมชาติของวิชาวิศวกรรมซอฟต์แวร์และการเรียนรู้แบบ project-based learning [file:9][file:12] นอกจากนี้ การมี oral defense ยังช่วยตรวจสอบได้ว่าผู้เรียนเข้าใจสิ่งที่ AI ช่วยสร้างขึ้นจริง ไม่ได้เพียงคัดลอกผลลัพธ์มาใช้งาน [file:12][file:17]
-
-## Rubric ประเมิน Responsible AI Usage
-
-| ระดับ | คำอธิบาย |
-|---|---|
-| 4 ดีมาก | เปิดเผยการใช้ AI ครบถ้วน, prompt มีคุณภาพ, มีการตรวจสอบและแก้ไขโดยมนุษย์ชัดเจน, อธิบายเหตุผลและข้อจำกัดของผลลัพธ์ AI ได้ดี |
-| 3 ดี | ใช้ AI อย่างเหมาะสมและเปิดเผยส่วนใหญ่ครบ, มี human review, อธิบายผลลัพธ์ได้ในระดับดี |
-| 2 พอใช้ | ใช้ AI ได้แต่ยังขาดความสม่ำเสมอในการเปิดเผยหรือการตรวจทาน, อธิบายเหตุผลของ artefacts ได้เพียงบางส่วน |
-| 1 ต้องปรับปรุง | ใช้ AI แบบพึ่งพามากเกินไป, เปิดเผยไม่ครบ, อธิบายงานตนเองไม่ได้, หลักฐานการตรวจสอบไม่เพียงพอ |
-| 0 ไม่ผ่าน | ส่งงานจาก AI โดยแทบไม่มีการตรวจสอบหรือมีการปกปิดการใช้ AI |
-
-## แนวทางการจัดการเรียนการสอน
-- ใช้ lecture เพื่อวางกรอบแนวคิด หลักการ และมาตรฐานของ artefacts [file:5][file:9]
-- ใช้ lab เพื่อให้นักศึกษาสร้าง artefacts ของโปรเจกต์ทีมจริงในสัปดาห์นั้นทันที [file:12]
-- ใช้ weekly review สั้น ๆ เพื่อตรวจทั้งความคืบหน้าเชิงเทคนิคและการใช้ AI อย่างรับผิดชอบ [file:12][file:17]
-- ใช้ repository, issue tracker และ pull requests เป็นหลักฐานกลางของพัฒนาการตลอดเทอม [file:5]
-
-## ภาคผนวก: Template AI Usage Disclosure
-
-```text
-Project / Team:
-Week / Deliverable:
-AI Tool Used:
-Purpose of Use:
-Prompting Approach Used:
-Output Generated by AI:
-Human Review Performed By:
-What Was Modified or Rejected:
-Final Responsibility Taken By:
-```
-
-## ภาคผนวก: คำแนะนำสำหรับอาจารย์
-เพื่อให้รายวิชานี้มีความชัดเจนในการประเมิน ควรกำหนดตั้งแต่ต้นว่า “การใช้ AI ไม่ใช่การทุจริต หากมีการเปิดเผยและตรวจสอบอย่างเหมาะสม” และ “การไม่เปิดเผยหรือไม่เข้าใจสิ่งที่ส่ง คือปัญหาทางวิชาการ” [file:12][file:17] วิธีนี้ช่วยสร้างวัฒนธรรมการใช้ AI แบบมืออาชีพ ซึ่งสอดคล้องกับแนวโน้มการทำงานจริงที่วิศวกรต้องใช้เครื่องมือช่วยงานภายใต้ข้อกำกับของมาตรฐาน คุณภาพ และความรับผิดชอบ [file:5][file:12]
+| สัปดาห์ที่ | หัวข้อหลัก (Weekly Theme) | พาร์ทบรรยาย (Lecture) | พาร์ทปฏิบัติการ (Hands-on Lab) |
+| :--- | :--- | :--- | :--- |
+| **1** | **Introduction to Modern Software Engineering** | **1. The Modern SE Landscape:**<br>- Software Products vs. Projects [Ref: ESP Ch.1]<br>- The Agile Manifesto & Core Principles [Ref: ESP Ch.2]<br>- The Pragmatic Philosophy: Your Journey to Mastery [Ref: PP Ch.1] | **1. Environment & Tooling Setup:**<br>- Installing Git & IDE (VS Code/PyCharm)<br>- GitHub Account & Organization Setup<br>- Lab 1: Your First Commit & "Hello World" Project |
+| **2** | **Agile Methodologies in Practice** | **1. Scrum Framework Deep Dive:**<br>- Roles: Product Owner, Scrum Master, Dev Team<br>- Artifacts: Product Backlog, Sprint Backlog<br>- Events: Sprint Planning, Daily Scrum, Sprint Review [Ref: ESP Ch.2.3] | **1. Sprint Simulation Workshop:**<br>- Lab 2: Setting up a Project Board (Kanban)<br>- Creating and Prioritizing the initial Product Backlog<br>- Simulating the first Sprint Planning session |
+| **3** | **Requirements & User-Centric Design** | **1. Understanding the User:**<br>- The Requirements Pit: No One Knows What They Want [Ref: PP Topic 45]<br>- Techniques: Personas, Scenarios, User Stories [Ref: ESP Ch.3] | **1. Requirements Gathering Workshop:**<br>- Lab 3: Crafting Project Personas<br>- Writing a core usage Scenario<br>- Decomposing Scenarios into User Stories |
+| **4** | **Introduction to GenAI for Software Engineering** | **1. The AI-Assisted Paradigm:**<br>- The Current Opportunity for GenAI in SDLC [Ref: SCG Ch.1]<br>- The Three Pillars of Good Outputs<br>- Best Practices: The 5 S's of Prompting [Ref: SCG Ch.4] | **1. GenAI Quickstart:**<br>- Lab 4: Setting up OpenAI & GitHub Copilot accounts<br>- Your first prompt with ChatGPT for coding<br>- Experiencing code completion with Copilot |
+| **5** | **Software Architecture & Design Fundamentals** | **1. Why Architecture Matters:**<br>- Non-functional Attributes & Trade-offs<br>- System Decomposition: Components & Layers<br>- Architectural Patterns: Layered, Client-Server [Ref: ESP Ch.4] | **1. Architectural Blueprinting Workshop:**<br>- Lab 5: Introduction to C4 Model<br>- Drawing the Level 1 (Context) Diagram<br>- Drawing the Level 2 (Container) Diagram |
+| **6** | **Cloud-Native & Microservices Architecture** | **1. The Cloud Paradigm:**<br>- IaaS, PaaS, SaaS<br>- Virtualization vs. Containerization (Docker)<br>- Introduction to Microservices Architecture [Ref: ESP Ch.5, Ch.6] | **1. Containerization Lab:**<br>- Lab 6: Writing your first `Dockerfile`<br>- Building and running the application as a Docker container<br>- Introduction to `docker-compose.yml` |
+| **7** | **The Philosophy of Good Design** | **1. The Core Philosophy:** ETC, DRY, Orthogonality [Ref: PP Topic 8, 9, 10]<br>**2. Writing Shy Code:** Tell, Don't Ask & Law of Demeter [Ref: PP Topic 28]<br>**3. Programming Deliberately:** Design by Contract (DbC) [Ref: PP Topic 23, 38] | **1. Midterm Code Quality Workshop:**<br>- Lab 7.1: Peer Code Review Session<br>- Lab 7.2: AI-Assisted Refactoring Session<br>- Lab 7.3: Final Deliverables Audit & Git Governance |
+| **8** | **Midterm Project Milestone 1: Submission & Review** | *No new lecture content. Session dedicated to project consultation and review.* | **1. In-Class Work & Consultation Session:**<br>- Finalizing Milestone 1 deliverables<br>- One-on-one consultation slots with teaching staff<br>- **Deadline: Submission of Milestone 1 at the end of the lab session.** |
+| **9** | **Reliable Programming & Pragmatic Paranoia** | **1. The Mindset of Robustness:**<br>- Fault Avoidance & Managing Complexity [Ref: ESP Ch.8]<br>- Pragmatic Paranoia: You Can't Write Perfect Software [Ref: PP Ch.4]<br>- Assertive Programming & The Crash Early Philosophy [Ref: PP Topic 25] | **1. Defensive Programming Lab:**<br>- Lab 8: Implementing Assertions and Preconditions in the project codebase<br>- Using GenAI to suggest and implement robust error handling for edge cases |
+| **10** | **The Testing Pyramid & Test-Driven Development (TDD)** | **1. The Philosophy of Testing:** Testing is Not About Finding Bugs [Ref: PP Topic 41]<br>**2. The Test Pyramid Framework:** Unit, Integration, E2E Tests [Ref: ESP Ch.9]<br>**3. The TDD Discipline:** Red, Green, Refactor [Ref: ESP Ch.9.3] | **1. TDD Workshop:**<br>- Lab 9: Writing your first Unit Test using `pytest`<br>- Step-by-step TDD session for a new function (e.g., a discount engine) |
+| **11** | **Continuous Integration & Delivery (CI/CD)** | **1. The DevOps Paradigm:** Breaking the "Wall of Confusion" [Ref: ESP Ch.10]<br>**2. The Automated Pipeline Spectrum:** CI, Continuous Delivery, Continuous Deployment<br>**3. Infrastructure as Code (IaC):** The "Why" behind Dockerfiles [Ref: ESP Ch.10.2.3] | **1. CI/CD Pipeline Workshop:**<br>- Lab 10.1: Integrating Linting (`flake8`) into the pipeline<br>- Lab 10.2: Building a Continuous Delivery pipeline to Docker Hub using GitHub Actions |
+| **12** | **Application Security Engineering** | **1. The Modern Threat Landscape:** System Stack Vulnerabilities [Ref: ESP Ch.7]<br>**2. Core Secure Design Principles:** Minimize Attack Surface, Least Privilege, etc. [Ref: PP Topic 43]<br>**3. Foundations of AppSec:** AAA, Hashing, Input Validation [Ref: ESP Ch.7, Ch.8] | **1. Repository Hardening Workshop:**<br>- Lab 11.1: Implementing robust Server-Side Input Validation<br>- Lab 11.2: Secret Management using `.env` files and GitHub Secrets |
+| **13** | **Managing Technical Debt & Refactoring** | **1. Technical Debt & Software Entropy:** The Broken Window Theory [Ref: PP Topic 3]<br>**2. The Metatheory of Refactoring:** The Two Hats Rule [Ref: PP Topic 40]<br>**3. Taxonomy of Code Smells:** Identifying structural decay [Ref: ESP Ch.8.1.3] | **1. Technical Debt Paydown Sprint:**<br>- Lab 12.1: Code Smell Hunting & Debt Registration on GitHub Issues<br>- Lab 12.2: Hybrid Refactoring Workflow using IDE Automation and GenAI |
+| **14** | **Delivering Value & Professional Communication** | **1. The Goal is to Delight Users:** Working Software as the Measure of Progress [Ref: PP Topic 52]<br>**2. The Art of Technical Storytelling:** Structuring the "Why, What, How"<br>**3. Final Evaluation Matrix:** Understanding the criteria for success | **1. Final Sprint & Demo Preparation:**<br>- Lab 13.1: Protected work session to complete the final feature<br>- Lab 13.2: Final CI Health Check & Release Tagging (`v1.0.0`) |
+| **15** | **The Pragmatic Professional** | **1. Signing Your Work & The Engineering Communicator** [Ref: PP Topic 53, 7]<br>**2. The Moral Compass:** Tech Ethics & "First, Do No Harm" [Ref: PP Postface]<br>**3. The Lifelong Learner:** Managing Your Knowledge Portfolio [Ref: PP Topic 6]<br>**4. The AI Revolution & Course Synthesis** [Ref: SCG Ch.16] | **1. Final Project Retrospective:**<br>- Lab 14.1: "Start, Stop, Continue" workshop<br>- **Assignment:** Submitting the Final Personal Reflection as a GitHub Issue |
+| **16** | **Final Project Presentations (Demo Day)** | *No lecture. Session dedicated to final project presentations.* | **Final Project Showcase:**<br>- Each team presents their project following the 15+5 minute format.<br>- Peer evaluation and Q&A session with instructors and peers. |
