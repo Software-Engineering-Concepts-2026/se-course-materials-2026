@@ -42,7 +42,7 @@
 
 #### **Module 1: Foundations & The Agile Mindset**
 
-**สัปดาห์ที่ 1: Introduction to Modern Software Engineering & The Pragmatic Mindset**
+**[สัปดาห์ที่ 1: Introduction to Modern Software Engineering & The Pragmatic Mindset](./Week1/README.md)**
 *   **Lecture:** ทำความเข้าใจความแตกต่างระหว่าง Project-based vs. Product-based, รู้จัก Modern Software Execution Models (SaaS), และปลูกฝังปรัชญา Pragmatic Programmer (Take Responsibility, Software Entropy).
 *   **Lab:** ก่อตั้งทีม, เลือก Theme ของโปรเจกต์, สร้าง Project Charter, ตั้งค่า GitHub Repository ใน Organization, และส่งมอบงานชิ้นแรกผ่านกระบวนการ Git Workflow และ Pull Request ที่ถูกต้อง
 
