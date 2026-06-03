@@ -24,23 +24,85 @@
 
 ---
 
-### **แผนการเรียนการสอน (16 สัปดาห์)**
+แน่นอนครับ ผมได้รวบรวมและสังเคราะห์การปรับปรุงทั้งหมดที่เราได้ทำร่วมกัน และจัดทำเป็น **"แผนการสอนฉบับสมบูรณ์ (Final Course Syllabus)"** ที่มีความสอดคล้อง, ลึกซึ้ง, และทันสมัย พร้อมสำหรับการนำไปใช้งานจริงในภาคการศึกษา
 
-| สัปดาห์ที่ | หัวข้อหลัก (Weekly Theme) | พาร์ทบรรยาย (Lecture) | พาร์ทปฏิบัติการ (Hands-on Lab) |
-| :--- | :--- | :--- | :--- |
-| **1** | **Introduction to Modern Software Engineering** | **1. The Modern SE Landscape:**<br>- Software Products vs. Projects [Ref: ESP Ch.1]<br>- The Agile Manifesto & Core Principles [Ref: ESP Ch.2]<br>- The Pragmatic Philosophy: Your Journey to Mastery [Ref: PP Ch.1] | **1. Environment & Tooling Setup:**<br>- Installing Git & IDE (VS Code/PyCharm)<br>- GitHub Account & Organization Setup<br>- Lab 1: Your First Commit & "Hello World" Project |
-| **2** | **Agile Methodologies in Practice** | **1. Scrum Framework Deep Dive:**<br>- Roles: Product Owner, Scrum Master, Dev Team<br>- Artifacts: Product Backlog, Sprint Backlog<br>- Events: Sprint Planning, Daily Scrum, Sprint Review [Ref: ESP Ch.2.3] | **1. Sprint Simulation Workshop:**<br>- Lab 2: Setting up a Project Board (Kanban)<br>- Creating and Prioritizing the initial Product Backlog<br>- Simulating the first Sprint Planning session |
-| **3** | **Requirements & User-Centric Design** | **1. Understanding the User:**<br>- The Requirements Pit: No One Knows What They Want [Ref: PP Topic 45]<br>- Techniques: Personas, Scenarios, User Stories [Ref: ESP Ch.3] | **1. Requirements Gathering Workshop:**<br>- Lab 3: Crafting Project Personas<br>- Writing a core usage Scenario<br>- Decomposing Scenarios into User Stories |
-| **4** | **Introduction to GenAI for Software Engineering** | **1. The AI-Assisted Paradigm:**<br>- The Current Opportunity for GenAI in SDLC [Ref: SCG Ch.1]<br>- The Three Pillars of Good Outputs<br>- Best Practices: The 5 S's of Prompting [Ref: SCG Ch.4] | **1. GenAI Quickstart:**<br>- Lab 4: Setting up OpenAI & GitHub Copilot accounts<br>- Your first prompt with ChatGPT for coding<br>- Experiencing code completion with Copilot |
-| **5** | **Software Architecture & Design Fundamentals** | **1. Why Architecture Matters:**<br>- Non-functional Attributes & Trade-offs<br>- System Decomposition: Components & Layers<br>- Architectural Patterns: Layered, Client-Server [Ref: ESP Ch.4] | **1. Architectural Blueprinting Workshop:**<br>- Lab 5: Introduction to C4 Model<br>- Drawing the Level 1 (Context) Diagram<br>- Drawing the Level 2 (Container) Diagram |
-| **6** | **Cloud-Native & Microservices Architecture** | **1. The Cloud Paradigm:**<br>- IaaS, PaaS, SaaS<br>- Virtualization vs. Containerization (Docker)<br>- Introduction to Microservices Architecture [Ref: ESP Ch.5, Ch.6] | **1. Containerization Lab:**<br>- Lab 6: Writing your first `Dockerfile`<br>- Building and running the application as a Docker container<br>- Introduction to `docker-compose.yml` |
-| **7** | **The Philosophy of Good Design** | **1. The Core Philosophy:** ETC, DRY, Orthogonality [Ref: PP Topic 8, 9, 10]<br>**2. Writing Shy Code:** Tell, Don't Ask & Law of Demeter [Ref: PP Topic 28]<br>**3. Programming Deliberately:** Design by Contract (DbC) [Ref: PP Topic 23, 38] | **1. Midterm Code Quality Workshop:**<br>- Lab 7.1: Peer Code Review Session<br>- Lab 7.2: AI-Assisted Refactoring Session<br>- Lab 7.3: Final Deliverables Audit & Git Governance |
-| **8** | **Midterm Project Milestone 1: Submission & Review** | *No new lecture content. Session dedicated to project consultation and review.* | **1. In-Class Work & Consultation Session:**<br>- Finalizing Milestone 1 deliverables<br>- One-on-one consultation slots with teaching staff<br>- **Deadline: Submission of Milestone 1 at the end of the lab session.** |
-| **9** | **Reliable Programming & Pragmatic Paranoia** | **1. The Mindset of Robustness:**<br>- Fault Avoidance & Managing Complexity [Ref: ESP Ch.8]<br>- Pragmatic Paranoia: You Can't Write Perfect Software [Ref: PP Ch.4]<br>- Assertive Programming & The Crash Early Philosophy [Ref: PP Topic 25] | **1. Defensive Programming Lab:**<br>- Lab 8: Implementing Assertions and Preconditions in the project codebase<br>- Using GenAI to suggest and implement robust error handling for edge cases |
-| **10** | **The Testing Pyramid & Test-Driven Development (TDD)** | **1. The Philosophy of Testing:** Testing is Not About Finding Bugs [Ref: PP Topic 41]<br>**2. The Test Pyramid Framework:** Unit, Integration, E2E Tests [Ref: ESP Ch.9]<br>**3. The TDD Discipline:** Red, Green, Refactor [Ref: ESP Ch.9.3] | **1. TDD Workshop:**<br>- Lab 9: Writing your first Unit Test using `pytest`<br>- Step-by-step TDD session for a new function (e.g., a discount engine) |
-| **11** | **Continuous Integration & Delivery (CI/CD)** | **1. The DevOps Paradigm:** Breaking the "Wall of Confusion" [Ref: ESP Ch.10]<br>**2. The Automated Pipeline Spectrum:** CI, Continuous Delivery, Continuous Deployment<br>**3. Infrastructure as Code (IaC):** The "Why" behind Dockerfiles [Ref: ESP Ch.10.2.3] | **1. CI/CD Pipeline Workshop:**<br>- Lab 10.1: Integrating Linting (`flake8`) into the pipeline<br>- Lab 10.2: Building a Continuous Delivery pipeline to Docker Hub using GitHub Actions |
-| **12** | **Application Security Engineering** | **1. The Modern Threat Landscape:** System Stack Vulnerabilities [Ref: ESP Ch.7]<br>**2. Core Secure Design Principles:** Minimize Attack Surface, Least Privilege, etc. [Ref: PP Topic 43]<br>**3. Foundations of AppSec:** AAA, Hashing, Input Validation [Ref: ESP Ch.7, Ch.8] | **1. Repository Hardening Workshop:**<br>- Lab 11.1: Implementing robust Server-Side Input Validation<br>- Lab 11.2: Secret Management using `.env` files and GitHub Secrets |
-| **13** | **Managing Technical Debt & Refactoring** | **1. Technical Debt & Software Entropy:** The Broken Window Theory [Ref: PP Topic 3]<br>**2. The Metatheory of Refactoring:** The Two Hats Rule [Ref: PP Topic 40]<br>**3. Taxonomy of Code Smells:** Identifying structural decay [Ref: ESP Ch.8.1.3] | **1. Technical Debt Paydown Sprint:**<br>- Lab 12.1: Code Smell Hunting & Debt Registration on GitHub Issues<br>- Lab 12.2: Hybrid Refactoring Workflow using IDE Automation and GenAI |
-| **14** | **Delivering Value & Professional Communication** | **1. The Goal is to Delight Users:** Working Software as the Measure of Progress [Ref: PP Topic 52]<br>**2. The Art of Technical Storytelling:** Structuring the "Why, What, How"<br>**3. Final Evaluation Matrix:** Understanding the criteria for success | **1. Final Sprint & Demo Preparation:**<br>- Lab 13.1: Protected work session to complete the final feature<br>- Lab 13.2: Final CI Health Check & Release Tagging (`v1.0.0`) |
-| **15** | **The Pragmatic Professional** | **1. Signing Your Work & The Engineering Communicator** [Ref: PP Topic 53, 7]<br>**2. The Moral Compass:** Tech Ethics & "First, Do No Harm" [Ref: PP Postface]<br>**3. The Lifelong Learner:** Managing Your Knowledge Portfolio [Ref: PP Topic 6]<br>**4. The AI Revolution & Course Synthesis** [Ref: SCG Ch.16] | **1. Final Project Retrospective:**<br>- Lab 14.1: "Start, Stop, Continue" workshop<br>- **Assignment:** Submitting the Final Personal Reflection as a GitHub Issue |
-| **16** | **Final Project Presentations (Demo Day)** | *No lecture. Session dedicated to final project presentations.* | **Final Project Showcase:**<br>- Each team presents their project following the 15+5 minute format.<br>- Peer evaluation and Q&A session with instructors and peers. |
+นี่คือแผนการสอนฉบับสมบูรณ์สำหรับรายวิชา **Modern Software Engineering** ครับ
+
+---
+
+**การประเมินผล (Assessment Scheme):**
+*   **25%** - งานปฏิบัติการรายสัปดาห์ (Weekly Labs)
+*   **25%** - สอบกลางภาค: Project Milestone 1 (ส่งมอบสิ้นสัปดาห์ที่ 7)
+*   **35%** - โครงงานปลายภาค และการนำเสนอ (Final Project & Demo)
+*   **15%** - การมีส่วนร่วมและผลงานรายบุคคล (Individual Contribution & Reflection)
+
+---
+
+### **โครงสร้างการเรียนการสอนรายสัปดาห์**
+
+#### **Module 1: Foundations & The Agile Mindset**
+
+**สัปดาห์ที่ 1: Introduction to Modern Software Engineering & The Pragmatic Mindset**
+*   **Lecture:** ทำความเข้าใจความแตกต่างระหว่าง Project-based vs. Product-based, รู้จัก Modern Software Execution Models (SaaS), และปลูกฝังปรัชญา Pragmatic Programmer (Take Responsibility, Software Entropy).
+*   **Lab:** ก่อตั้งทีม, เลือก Theme ของโปรเจกต์, สร้าง Project Charter, ตั้งค่า GitHub Repository ใน Organization, และส่งมอบงานชิ้นแรกผ่านกระบวนการ Git Workflow และ Pull Request ที่ถูกต้อง
+
+**สัปดาห์ที่ 2: Agile Methodologies: Scrum & Extreme Programming (XP)**
+*   **Lecture:** เจาะลึกปรัชญาและคุณค่าของ Agile Manifesto, ทำความเข้าใจกรอบการทำงาน Scrum (3 Pillars, Roles, Events, Artifacts), และเรียนรู้แนวปฏิบัติทางวิศวกรรมจาก Extreme Programming (XP) ที่เป็นเครื่องยนต์ขับเคลื่อนคุณภาพ
+*   **Lab:** จำลอง "Sprint Zero" โดยใช้ GitHub Projects สร้าง Product Backlog จาก User Stories, ฝึกฝนการประเมินขนาดงานด้วย Planning Poker, และวางแผนสำหรับ Sprint 1
+
+**สัปดาห์ที่ 3: Modern Requirements: Personas, Scenarios, and User Stories**
+*   **Lecture:** เรียนรู้เทคนิคการ "ค้นพบ" ความต้องการแทนการ "รวบรวม" ผ่านการสร้าง Personas เพื่อสร้าง Empathy, การเล่าเรื่องผ่าน Scenarios เพื่อสำรวจบริบท, และการสกัดงานด้วย User Stories ที่มีคุณภาพตามเกณฑ์ INVEST
+*   **Lab:** Workshop การสร้าง Personas และ Scenarios สำหรับโปรเจกต์ของทีมโดยใช้ GenAI เป็นผู้ช่วย, จากนั้นสกัด User Stories ที่ได้ไปปรับปรุง Product Backlog และจัดเก็บเอกสารทั้งหมดลง Git
+
+**สัปดาห์ที่ 4: Prototyping and Introduction to AI-Assisted Development**
+*   **Lecture:** ทำความเข้าใจปรัชญาการสร้างต้นแบบเพื่อ "การเรียนรู้" (Prototype to Learn), เปรียบเทียบความแตกต่างระหว่าง Low-Fidelity และ High-Fidelity Prototypes, และวิเคราะห์ความแตกต่างเชิงกลยุทธ์ระหว่าง Prototypes (ใช้แล้วทิ้ง) และ Tracer Bullets (โครงสร้างเพื่อต่อยอด) พร้อมแนะนำเครื่องมือ GenAI และหลักการ Prompt Engineering (The Five S's)
+*   **Lab:** ลงมือปฏิบัติการ AI-Powered Prototyping โดยการแปลง User Story ให้กลายเป็น Interactive Mockup ที่ทำงานได้จริง โดยใช้ GitHub Copilot สร้างโครงสร้าง HTML/CSS และใช้ ChatGPT สร้างโค้ด JavaScript สำหรับการโต้ตอบเบื้องต้น
+
+#### **Module 2: Architecture & Clean Code Construction**
+
+**สัปดาห์ที่ 5: Fundamentals of Software Architecture**
+*   **Lecture:** เจาะลึกนิยามของสถาปัตยกรรมซอฟต์แวร์, การวิเคราะห์ Trade-offs, และผลกระทบต่อคุณภาพระบบ (-ilities) เรียนรู้แนวคิดพื้นฐานในการออกแบบ (Decomposition, Layered Architecture, Client-Server, MVC) และหลักการวัดคุณภาพ (Low Coupling, High Cohesion) พร้อมแนะนำการบันทึกการตัดสินใจด้วย ADRs
+*   **Lab:** Workshop การร่างพิมพ์เขียวสถาปัตยกรรมด้วย C4 Model (Context & Container Diagrams) และฝึกฝนการตัดสินใจเลือก Tech Stack อย่างมีเหตุผลพร้อมบันทึกเป็น ADR-001
+
+**สัปดาห์ที่ 6: Architectural Patterns: Cloud-Native and Microservices**
+*   **Lecture:** ทำความเข้าใจกระบวนทัศน์ Cloud-Native ผ่าน 3 เสาหลัก (Scalability, Elasticity, Resilience) และเทคโนโลยีพื้นฐาน (VMs vs. Containers) จากนั้นเปรียบเทียบสถาปัตยกรรม Monolith กับ Microservices และเรียนรู้ส่วนประกอบสำคัญ (API Gateway, Service Discovery)
+*   **Lab:** ลงมือปฏิบัติการ "Decomposing the Monolith" โดยการแยกฟังก์ชันหนึ่งออกมาสร้างเป็น Microservice ด้วย Python/Flask, เขียน Dockerfile ด้วยความช่วยเหลือจาก AI, และรันเป็น Container ที่ทำงานได้อย่างอิสระ
+
+**สัปดาห์ที่ 7: Pragmatic Programming & Milestone 1 Finalization**
+*   **Lecture:** สรุปและเจาะลึกหลักการเขียนโค้ดคุณภาพจาก "The Pragmatic Programmer" ได้แก่ DRY, Orthogonality, Decoupling, Design by Contract, และการเขียนโค้ดอย่างมีเจตนา (Programming Deliberately)
+*   **Lab:** เป็นช่วงเวลาทำงานและให้คำปรึกษา (Work Session & Consultation) เพื่อให้ทุกทีมทำการ Peer Review และ Refactor โค้ดของตนเองตามหลักการที่เรียนมา และตรวจสอบความครบถ้วนของงานทั้งหมดเพื่อเตรียมส่งมอบ Project Milestone 1
+*   **Submission:** **ส่งมอบ Project Milestone 1 ณ สิ้นสัปดาห์**
+
+**สัปดาห์ที่ 8: Midterm Examination Period (No Classes)**
+*   **กิจกรรม:** เว้นว่างจากการเรียนการสอน เพื่อให้นิสิต/นักศึกษามีเวลาสำหรับการสอบกลางภาคในรายวิชาอื่นๆ
+
+#### **Module 3: Quality, Delivery, and Professional Practice**
+
+**สัปดาห์ที่ 9: Quality Assurance & Automated Testing**
+*   **Lecture:** สร้างความเข้าใจในวัฒนธรรมคุณภาพผ่าน Testing Pyramid, เจาะลึกกระบวนการ Test-Driven Development (TDD), และเรียนรู้เทคนิคการเขียน Unit Test ที่ดี (AAA Pattern, Mocking) พร้อมสำรวจการใช้ AI ช่วยสร้างชุดการทดสอบ
+*   **Lab:** ลงมือปฏิบัติการ TDD เพื่อสร้างฟังก์ชันใหม่, เขียน Unit Tests สำหรับโค้ดเดิมโดยใช้ AI ช่วย, และสร้าง GitHub Actions Workflow แรกสำหรับ Continuous Integration (CI)
+
+**สัปดาห์ที่ 10: The DevOps Pipeline: From CI to CD and Infrastructure as Code**
+*   **Lecture:** ทำความเข้าใจวัฒนธรรม DevOps, เรียนรู้กระบวนการส่งมอบอัตโนมัติเต็มรูปแบบจาก Continuous Integration (CI) สู่ Continuous Delivery/Deployment (CD), และแนวคิด Infrastructure as Code (IaC)
+*   **Lab:** ต่อยอด CI Workflow จากสัปดาห์ที่แล้วให้กลายเป็น CD Pipeline ที่สมบูรณ์ โดยเพิ่มขั้นตอนการ Build และ Push Docker Image ของ Microservice ขึ้นไปยัง Docker Hub โดยอัตโนมัติ
+
+**สัปดาห์ที่ 11: Secure Software Engineering & Data Privacy**
+*   **Lecture:** เรียนรู้หลักการพัฒนาซอฟต์แวร์ให้ปลอดภัย (Secure by Design), ทำความรู้จักช่องโหว่ที่พบบ่อย (SQL Injection, XSS), และตระหนักถึงความรับผิดชอบทางจริยธรรมและกฎหมายในการปกป้องข้อมูลส่วนบุคคลของผู้ใช้ (Data Privacy)
+*   **Lab:** ลงมือ "เสริมความแข็งแกร่ง" ให้โปรเจกต์ โดยการเพิ่ม Input Validation ในฝั่งเซิร์ฟเวอร์ และย้ายข้อมูลลับ (Secrets) ทั้งหมดออกจากโค้ดไปจัดการผ่าน Environment Variables (`.env` file)
+
+**สัปดาห์ที่ 12: Advanced Refactoring & Code Maintenance**
+*   **Lecture:** เจาะลึกแนวคิด "หนี้ทางเทคนิค" (Technical Debt) และเรียนรู้เทคนิคการ "ชำระหนี้" ผ่านการ Refactoring เรียนรู้วิธีการระบุ "Code Smells" และใช้เทคนิคต่างๆ (เช่น Extract Method) เพื่อปรับปรุงโครงสร้างโค้ด
+*   **Lab:** Workshop การทำ Code Smell Hunt ในโปรเจกต์ของตนเอง, เปิด Issue เพื่อติดตาม Technical Debt, และลงมือ Refactor โค้ดโดยใช้เครื่องมืออัตโนมัติใน IDE และความช่วยเหลือจาก GenAI
+
+**สัปดาห์ที่ 13: Project Workshop & Final Sprint Consultation**
+*   **Lecture:** สรุปภาพรวมและให้คำแนะนำสำหรับการนำเสนอโครงงานปลายภาค, การเล่าเรื่อง (Storytelling), และการสาธิตที่มีประสิทธิภาพ
+*   **Lab:** เป็นคาบทำงานเต็มรูปแบบ (Work Session) สำหรับ Sprint สุดท้าย โดยมีอาจารย์คอยให้คำปรึกษาเชิงลึก (Deep-Dive Consultation) กับแต่ละทีมเพื่อเตรียมความพร้อมสำหรับ Demo Day
+
+**สัปดาห์ที่ 14: Final Project Presentations & Demo Day**
+*   **กิจกรรม:** แต่ละทีมนำเสนอและสาธิตการทำงานของโครงงานปลายภาคที่เสร็จสมบูรณ์ อธิบายการตัดสินใจเชิงสถาปัตยกรรม และแสดงให้เห็นถึงกระบวนการทำงานแบบมืออาชีพที่ได้เรียนรู้มาตลอดทั้งเทอม พร้อมช่วง Q&A และการให้ Feedback จากเพื่อนร่วมชั้น
+
+**สัปดาห์ที่ 15: Professional Practice, Ethics, and The Future of Software Engineering**
+*   **Lecture:** สรุปภาพรวมจรรยาบรรณวิชาชีพ, การวางแผนเส้นทางอาชีพ, และการเรียนรู้ตลอดชีวิต (Managing Your Knowledge Portfolio) พร้อมอภิปรายถึงอนาคตของวิศวกรรมซอฟต์แวร์และผลกระทบของ AI ต่อบทบาทของนักพัฒนา
+*   **Lab:** กิจกรรม "Team Retrospective" เพื่อทบทวนการทำงานในโปรเจกต์ และปิดท้ายด้วยเซสชัน "Career Q&A" กับอาจารย์
+
+---
