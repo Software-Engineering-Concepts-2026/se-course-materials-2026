@@ -68,101 +68,141 @@
 
 ---
 
-### 5. แผนการเรียนรายสัปดาห์และเอกสารอ่านประกอบ (15-Week Course Outline)
-
-#### [ ครึ่งแรกของภาคการศึกษา: Foundation, Agility & Architecture ]
-
-* **สัปดาห์ที่ 1: Introduction to Modern Software Engineering & The Pragmatic Mindset**
-* **เนื้อหา:** ปูพื้นฐานวิศวกรรมซอฟต์แวร์ยุคปัจจุบัน; เปรียบเทียบ Project-based vs Product-based; ปลูกฝังทัศนคติ "Pragmatic Programmer" ความรับผิดชอบ และการเรียนรู้ตลอดชีวิต
-* **งานปฏิบัติการ (Lab 1 - 1%):** *First Pragmatic Commit* — ส่งไฟล์ `<your-name>.md` ที่เขียนสะท้อนความคิดลงบน GitHub
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 1-2, [PP] Chapter 1
-
-
-* **สัปดาห์ที่ 2: Agile Methodologies: Scrum & Extreme Programming (XP)**
-* **เนื้อหา:** เจาะลึกหลักการ Agile Manifesto; กระบวนการทำงานของ Scrum (Roles, Events, Artifacts); แนวปฏิบัติทางเทคนิคจาก Extreme Programming (XP) เพื่อสร้างซอฟต์แวร์ที่คล่องตัว
-* **งานปฏิบัติการ (Lab 2 - 2%):** *Sprint Zero Setup* — ตั้งค่า GitHub Projects Board และร่วมกันสร้าง Product Backlog ของทีม
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 3
-
-
-* **สัปดาห์ที่ 3: Modern Requirements: Personas, Scenarios, and User Stories**
-* **เนื้อหา:** เทคนิคการเก็บและวิเคราะห์ความต้องการยุคใหม่; เปลี่ยนเอกสารซับซ้อนให้เป็นความเข้าใจผู้ใช้ผ่าน Personas; จำลองสถานการณ์ด้วย Scenarios และแจกแจงงานด้วย User Stories
-* **งานปฏิบัติการ (Lab 3 - 2%):** *Requirements Documentation* — ส่งมอบเอกสาร Personas และ Scenarios ไว้อย่างเป็นระบบในโฟลเดอร์ `docs/`
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 4-5
-
-
-* **สัปดาห์ที่ 4: Prototyping and Introduction to AI-Assisted Development**
-* **เนื้อหา:** แนวทางการสร้างต้นแบบ (Prototype) เพื่อทดสอบไอเดียอย่างรวดเร็ว; การใช้เครื่องมือ Generative AI (GitHub Copilot, ChatGPT) ในฐานะผู้ช่วยรังสรรค์โค้ดและต้นแบบ
-* **งานปฏิบัติการ (Lab 4 - 2%):** *Rapid Prototyping* — ส่งมอบไฟล์ Prototype (HTML/CSS/JS) ที่สามารถทำงานและโต้ตอบเบื้องต้นได้
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 6, [SCG] Chapter 1-3
-
-
-* **สัปดาห์ที่ 5: Fundamentals of Software Architecture**
-* **เนื้อหา:** ความสำคัญของสถาปัตยกรรมซอฟต์แวร์ต่อคุณภาพระยะยาว; การวิเคราะห์ Trade-offs; คุณลักษณะที่ไม่ใช่ฟังก์ชัน (Non-functional attributes); หลักการแบ่งส่วนระบบ (System Decomposition)
-* **งานปฏิบัติการ (Lab 5 - 2%):** *Architectural Artifacts* — ออกแบบและส่งมอบ C4 Diagrams และไฟล์เอกสาร `tech_stack.md`
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 7, [PP] Chapter 5
-
-
-* **สัปดาห์ที่ 6: Architectural Patterns: Cloud-Native and Microservices**
-* **เนื้อหา:** รูปแบบสถาปัตยกรรมสมัยใหม่บนคลาวด์; แนวคิด Virtualization และ Containers; หลักการออกแบบ Microservices Architecture เพื่อระบบที่ยืดหยุ่นและขยายตัวได้ง่าย
-* **งานปฏิบัติการ (Lab 6 - 3%):** *First Container* — เขียนและส่งมอบ Dockerfile สำหรับ Microservice แรก พร้อมทดลอง Push Image ขึ้น Docker Hub
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 8-9
-
-
-* **สัปดาห์ที่ 7: Pragmatic Programming: The Art of Clean Code Construction**
-* **เนื้อหา:** การเขียนโค้ดที่สะอาดและมีคุณภาพสูงจากแก่นปรัชญา Pragmatic Programmer; เรียนรู้หลักการ DRY (Don't Repeat Yourself), Orthogonality, และแนวคิด "Easier to Change" (ETC)
-* **งานปฏิบัติการ (Lab 7 - 2%):** *Refactoring Commit* — ปรับปรุงโค้ดให้สะอาดขึ้น พร้อมส่งมอบด้วย Commit Message ที่ถูกต้องตามมาตรฐาน
-* **เอกสารอ่านประกอบ:** [PP] Chapter 2 & Chapter 4
-* *หมายเหตุ: กำหนดส่งมอบ Project Milestone 1 (สอบกลางภาค) ณ สิ้นสุดสัปดาห์นี้*
-
-
-* **สัปดาห์ที่ 8: Midterm Examination Period (No Classes)**
-* **เนื้อหา:** *งดการเรียนการสอน* เพื่อให้นิสิตทุ่มเทกับการสอบกลางภาคในรายวิชาอื่นได้อย่างเต็มที่ (ไม่มีคะแนนในสัปดาห์นี้)
-
-
+นี่คือโครงสร้าง **แผนการเรียนรายสัปดาห์และเอกสารอ่านประกอบ (15-Week Course Outline)** ในรูปแบบตารางที่สแกนอ่านง่ายและแสดงข้อมูลครบถ้วนชัดเจนครับ
 
 ---
 
-#### [ ครึ่งหลังของภาคการศึกษา: Quality, DevOps & Delivery ]
+### 5. แผนการเรียนรายสัปดาห์และเอกสารอ่านประกอบ
 
-* **สัปดาห์ที่ 9: Quality Assurance & Automated Testing**
-* **เนื้อหา:** การสร้างวัฒนธรรมคุณภาพในซอฟต์แวร์; เรียนรู้ Test-Driven Development (TDD) และ Unit Testing; ขยายผลสู่ Integration & System Testing; การใช้ AI เร่งกระบวนการสร้างและดูแล Test Suites
-* **งานปฏิบัติการ (Lab 9 - 3%):** *Unit Test Implementation* — ส่งมอบไฟล์ Unit Test (`test_*.py` หรือตามภาษาที่ใช้) และตั้งค่าระบบ CI Workflow พื้นฐาน
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 11, [PP] Chapter 7, [SCG] Chapter 6
+| สัปดาห์ | หัวข้อ/เนื้อหาบทเรียน (Lecture Topics) | งานปฏิบัติการที่ต้องส่งมอบ (Weekly Labs & Deliverables) | สัดส่วนคะแนน | เอกสารอ่านประกอบ (References) |
+| --- | --- | --- | --- | --- |
+| **1** | **Introduction to Modern Software Engineering & The Pragmatic Mindset**<br>
+
+<br>• Project-based vs Product-based<br>
+
+<br>• ปรัชญา Pragmatic Programmer และความรับผิดชอบ | **Lab 1: First Pragmatic Commit**<br>
+
+<br>• ส่งไฟล์ `<your-name>.md` สะท้อนความคิดขึ้นระบบ GitHub | 1% | [ESP] Ch. 1-2<br>
+
+<br>[PP] Ch. 1 |
+| **2** | **Agile Methodologies: Scrum & Extreme Programming (XP)**<br>
+
+<br>• Agile Manifesto, พิธีกรรมและบทบาทใน Scrum<br>
+
+<br>• แนวปฏิบัติทางเทคนิคเบื้องต้นตามวิถี XP | **Lab 2: Sprint Zero Setup**<br>
+
+<br>• ตั้งค่า GitHub Projects Board และสร้าง Product Backlog | 2% | [ESP] Ch. 3 |
+| **3** | **Modern Requirements: Personas, Scenarios, and User Stories**<br>
+
+<br>• การทำความเข้าใจผู้ใช้ด้วย Personas และ Scenarios<br>
+
+<br>• การแจกแจงงานและเขียนเกณฑ์การยอมรับ (User Stories) | **Lab 3: Requirements Documentation**<br>
+
+<br>• จัดเก็บเอกสารข้อกำหนดระบบลงในโฟลเดอร์ `docs/` | 2% | [ESP] Ch. 4-5 |
+| **4** | **Prototyping and Introduction to AI-Assisted Development**<br>
+
+<br>• การสร้างต้นแบบเพื่อทดสอบแนวคิดอย่างรวดเร็ว<br>
+
+<br>• การใช้ GenAI (Copilot/ChatGPT) ช่วยเขียนโค้ดและขึ้นโครง | **Lab 4: Rapid Prototyping**<br>
+
+<br>• ส่งมอบไฟล์ต้นแบบ (HTML/CSS/JS) ที่โต้ตอบเบื้องต้นได้ | 2% | [ESP] Ch. 6<br>
+
+<br>[SCG] Ch. 1-3 |
+| **5** | **Fundamentals of Software Architecture**<br>
+
+<br>• ความสำคัญของสถาปัตยกรรมและการวิเคราะห์ Trade-offs<br>
+
+<br>• Non-functional attributes และ System Decomposition | **Lab 5: Architectural Artifacts**<br>
+
+<br>• ออกแบบ C4 Diagrams และระบุเหตุผลลง `tech_stack.md` | 2% | [ESP] Ch. 7<br>
+
+<br>[PP] Ch. 5 |
+| **6** | **Architectural Patterns: Cloud-Native and Microservices**<br>
+
+<br>• แนวคิด Virtualization และ Containers<br>
+
+<br>• หลักการออกแบบระบบย่อยใน Microservices Architecture | **Lab 6: First Container**<br>
+
+<br>• เขียน Dockerfile และทดลอง Push Image ขึ้น Docker Hub | 3% | [ESP] Ch. 8-9 |
+| **7** | **Pragmatic Programming: The Art of Clean Code Construction**<br>
+
+<br>• แก่นการเขียนโค้ดที่สะอาดตามหลัก DRY และ Orthogonality<br>
+
+<br>• การออกแบบโค้ดให้พร้อมรับการเปลี่ยนแปลง (ETC) | **Lab 7: Refactoring Commit**<br>
+
+<br>• ปรับปรุงโค้ดให้สะอาด พร้อมใช้ Commit Message มาตรฐาน<br>
+
+<br>*(สิ้นสุดสัปดาห์: กำหนดส่งมอบ **Project Milestone 1**)* | 2%<br>
+
+<br>*(Milestone 1: 25%)* | [PP] Ch. 2, 4 |
+| **8** | **Midterm Examination Period (No Classes)**<br>
+
+<br>• งดการเรียนการสอนเพื่อให้เวลานิสิตกับการสอบวิชาอื่น | *ไม่มีการส่งงานในสัปดาห์นี้* | - | - |
+| **9** | **Quality Assurance & Automated Testing**<br>
+
+<br>• วัฒนธรรมคุณภาพผ่านแนวคิด TDD และ Unit Testing<br>
+
+<br>• Integration/System Testing และการใช้ AI เจนชุดทดสอบ | **Lab 9: Unit Test Implementation**<br>
+
+<br>• ส่งไฟล์ Unit Test (`test_*.py`) และตั้งค่าระบบ CI พื้นฐาน | 3% | [ESP] Ch. 11<br>
+
+<br>[PP] Ch. 7<br>
+
+<br>[SCG] Ch. 6 |
+| **10** | **The DevOps Pipeline: From CI to CD and IaC**<br>
+
+<br>• การบริหาร Git Branching และท่อส่งมอบงานอัตโนมัติ<br>
+
+<br>• แนะนำแนวคิด Infrastructure as Code (IaC) | **Lab 10: Full CI/CD Pipeline**<br>
+
+<br>• ส่งมอบไฟล์ Workflow สมบูรณ์ (Build, Test, Push อัตโนมัติ) | 3% | [ESP] Ch. 10<br>
+
+<br>[SCG] Ch. 8 |
+| **11** | **Secure Software Engineering & Data Privacy**<br>
+
+<br>• การออกแบบระบบให้ปลอดภัยตั้งแต่เริ่มต้น (Secure by Design)<br>
+
+<br>• การป้องกันช่องโหว่พื้นฐาน และจริยธรรมข้อมูล (PDPA) | **Lab 11: Security Hardening**<br>
+
+<br>• ทำ Input Validation และจัดการข้อมูลความลับผ่าน `.env` | 3% | [ESP] Ch. 12<br>
+
+<br>[PP] Ch. 6 |
+| **12** | **Advanced Refactoring & Code Maintenance**<br>
+
+<br>• การบริหารจัดการหนี้ทางเทคนิค (Technical Debt)<br>
+
+<br>• ตรวจจับ Code Smells และใช้ AI ร่วมช่วยคลี่คลายโค้ด | **Lab 12: Advanced Refactoring**<br>
+
+<br>• ไล่เคลียร์และปิดประเด็น (Issues) ข้อบกพร่องในคลังโค้ด | 2% | [PP] Ch. 8<br>
+
+<br>[SCG] Ch. 5 |
+| **13** | **Project Workshop & Final Sprint Consultation**<br>
+
+<br>• คาบปฏิบัติการเต็มรูปแบบเพื่อลุยงานใน Sprint สุดท้าย<br>
+
+<br>• รับคำปรึกษาเชิงลึกจากอาจารย์เพื่อเตรียมความพร้อมวัน Demo | *ไม่มีคะแนน Lab ย่อย*<br>
+
+<br>• เน้นการโค้ชชิ่งและเร่งพัฒนาส่วนที่เหลือให้สมบูรณ์ | - | [PP] Ch. 9 |
+| **14** | **Final Project Presentations & Demo Day**<br>
+
+<br>• นำเสนอผลิตภัณฑ์ซอฟต์แวร์ที่ทำงานได้จริงต่อสาธารณะ<br>
+
+<br>• สาธิตกระบวนการทำงานและตอบข้อซักถามเชิงเทคนิค | **Final Project Presentation**<br>
+
+<br>• ประเมินจาก Working Software, Pipeline และการนำเสนอ | *(Final Project: 35%)* | - |
+| **15** | **Professional Practice, Ethics, and The Future of SE**<br>
+
+<br>• จรรยาบรรณวิชาชีพและการวางแผนเส้นทางอาชีพ (Career)<br>
+
+<br>• วิเคราะห์อนาคตของวิศวกรรมซอฟต์แวร์ในยุค AI | **Final Reflection**<br>
+
+<br>• ส่งงานเขียนถอดบทเรียนรายบุคคลหลังทำกิจกรรม Retrospective | *(Reflection: 5%)*<br>
+
+<br>*(Git Hist. Anal.: 10%)* | [ESP] Ch. 13<br>
+
+<br>[PP] Ch. 1 |
 
 
-* **สัปดาห์ที่ 10: The DevOps Pipeline: From CI to CD and Infrastructure as Code**
-* **เนื้อหา:** หลักการ DevOps เพื่อการส่งมอบซอฟต์แวร์อัตโนมัติครบวงจร; การจัดการ Git Branching; การสร้าง Continuous Integration (CI) และ Continuous Delivery/Deployment (CD) Pipeline; แนะนำแนวคิด Infrastructure as Code (IaC)
-* **งานปฏิบัติการ (Lab 10 - 3%):** *Full CI/CD Pipeline* — ส่งมอบไฟล์ Workflow การทำงานที่สมบูรณ์ (เช่น Build, Test และ Push Docker Image อัตโนมัติ)
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 10, [SCG] Chapter 8
-
-
-* **สัปดาห์ที่ 11: Secure Software Engineering & Data Privacy**
-* **เนื้อหา:** การสร้างซอฟต์แวร์ให้ปลอดภัยตั้งแต่เริ่มต้น (Secure by Design); การป้องกันช่องโหว่พื้นฐานที่นักพัฒนาต้องรู้; ความรับผิดชอบทางกฎหมายและจริยธรรมเกี่ยวกับความเป็นส่วนตัวของข้อมูล (Data Privacy / PDPA)
-* **งานปฏิบัติการ (Lab 11 - 3%):** *Security Hardening* — ส่งมอบโค้ดที่มีระบบ Input Validation และการจัดการคีย์ความลับผ่านไฟล์ `.env` (Secrets Management)
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 12, [PP] Chapter 6
-
-
-* **สัปดาห์ที่ 12: Advanced Refactoring & Code Maintenance**
-* **เนื้อหา:** การจัดการหนี้ทางเทคนิค (Technical Debt); เทคนิคการปรับปรุงโครงสร้างโค้ดเดิมที่ซับซ้อนให้บำรุงรักษาง่ายในระยะยาว; การใช้ AI เป็นผู้ช่วยวิเคราะห์และเสนอแนะแนวทางแก้ไข Code Smells
-* **งานปฏิบัติการ (Lab 12 - 2%):** *Advanced Refactoring* — ตรวจสอบ แก้ไข และปิดประเด็น (Issues) ของ Code Smells ที่ถูกเปิดไว้ในคลังโค้ด
-* **เอกสารอ่านประกอบ:** [PP] Chapter 8, [SCG] Chapter 5
-
-
-* **สัปดาห์ที่ 13: Project Workshop & Final Sprint Consultation**
-* **เนื้อหา:** คาบปฏิบัติการและทำงานร่วมกันเต็มรูปแบบ (Workshop); นิสิตลงมือพัฒนาโปรเจกต์ใน Sprint สุดท้าย; รับคำปรึกษาเชิงลึกจากอาจารย์ผู้สอน (Final Consultation) เพื่อเตรียมความพร้อมขั้นสุดท้าย
-* **งานปฏิบัติการ:** ไม่มีคะแนน Lab ย่อย (เน้นการโค้ชชิ่งกลุ่มเพื่อเตรียมความพร้อมสำหรับวัน Demo)
-* **เอกสารอ่านประกอบ:** [PP] Chapter 9
-
-
-* **สัปดาห์ที่ 14: Final Project Presentations & Demo Day**
-* **เนื้อหา:** วันนำเสนอผลงานโครงงานปลายภาค (Demo Day); แต่ละกลุ่มนำเสนอผลิตภัณฑ์ซอฟต์แวร์ที่ทำงานได้จริง (Working Software) ต่อหน้าสาธารณะ อธิบายการตัดสินใจเชิงสถาปัตยกรรม และสาธิตกระบวนการทำงานแบบ Agile/DevOps ที่ใช้จริง
-* **การประเมินผล:** ประเมินคะแนนโครงงานปลายภาคและการนำเสนอ (35%)
-
-
-* **สัปดาห์ที่ 15: Professional Practice, Ethics, and The Future of Software Engineering**
-* **เนื้อหา:** สรุปภาพรวมรายวิชา; อภิปรายเรื่องจรรยาบรรณวิชาชีพวิศวกรซอฟต์แวร์; การวางแผนเส้นทางอาชีพ (Career Path); ร่วมวิเคราะห์อนาคตของ Software Engineering และผลกระทบของ AI ต่อบทบาทนักพัฒนาในทศวรรษหน้า
-* **งานส่งมอบ:** *Final Reflection* — ส่งเล่มหรือไฟล์สะท้อนความคิดรายบุคคล (คิดเป็นคะแนนส่วนบุคคล 5%)
-* **เอกสารอ่านประกอบ:** [ESP] Chapter 13, [PP] Chapter 1 (Topic: Code Management & Responsibility)
 
 
 
