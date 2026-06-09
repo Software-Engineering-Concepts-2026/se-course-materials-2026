@@ -202,6 +202,14 @@
 
 <br>[PP] Ch. 1 |
 
+---
+
+> **หมายเหตุสำหรับผู้สอน:**
+> * ตารางนี้ใช้รหัสย่ออ้างอิงตรงกับหมวด **6. เอกสารอ้างอิงเพื่อการศึกษาค้นคว้าหลัก (Core References)** ในเล่ม Syllabus หลัก ได้แก่ `[ESP]` (Sommerville), `[PP]` (Hunt & Thomas), และ `[SCG]` (Herszfang & Henstock)
+> * สัดส่วนคะแนนในตารางสะสมรวมจะเท่ากับ 100% พอดี (Weekly Labs 25% + Midterm Milestone 25% + Final Project 35% + Individual Contribution 15%)
+> 
+>
+
 
 
 
