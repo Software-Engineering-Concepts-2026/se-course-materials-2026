@@ -1,109 +1,179 @@
+นี่คือเล่ม **ประมวลรายวิชา (Course Syllabus) ฉบับสมบูรณ์** ที่รวมโครงสร้างหลักสูตร เกณฑ์การประเมิน วัตถุประสงค์การเรียนรู้ และเพิ่มส่วน **เอกสารอ้างอิงเพื่อการศึกษาค้นคว้าหลัก (Core References)** พร้อมทั้งระบุตัวย่อกำกับไว้อย่างเป็นระบบ เพื่อความเป็นมืออาชีพและพร้อมใช้งานสำหรับการยื่นพิจารณาหลักสูตรครับ
+
+---
+
 # ประมวลรายวิชา (Course Syllabus)
-## **Course Syllabus: แนวคิดวิศวกรรมซอฟต์แวร์ (Software Engineering Concepts)**
 
-### **คำอธิบายรายวิชา (Course Description)**
+## รายวิชา: Software Engineering Concepts (แนวคิดวิศวกรรมซอฟต์แวร์)
 
-รายวิชานี้จะนำพานิสิต/นักศึกษาเข้าสู่โลกของวิศวกรรมซอฟต์แวร์สมัยใหม่ โดยเปลี่ยนกระบวนทัศน์จากการพัฒนาซอฟต์แวร์ตามคำสั่ง (Project-based) ไปสู่การสร้างผลิตภัณฑ์ (Product-based) ที่ขับเคลื่อนด้วยแนวคิด Agile และ DevOps นิสิตจะได้เรียนรู้ตลอดวงจรชีวิตการพัฒนาซอฟต์แวร์ (SDLC) ตั้งแต่การทำความเข้าใจผู้ใช้ผ่าน Personas และ User Stories, การออกแบบสถาปัตยกรรมที่ยืดหยุ่น (Cloud-Native & Microservices), การสร้างโค้ดคุณภาพสูงตามปรัชญา Pragmatic Programmer, ไปจนถึงการสร้างกระบวนการทดสอบและส่งมอบอัตโนมัติ (CI/CD) โดยตลอดทั้งรายวิชาจะมีการประยุกต์ใช้เครื่องมือ Generative AI (เช่น GitHub Copilot, ChatGPT) ในฐานะผู้ช่วยเพื่อเร่งกระบวนการเรียนรู้และพัฒนา
+**จำนวนสัปดาห์:** 15 สัปดาห์
 
-### **วัตถุประสงค์การเรียนรู้ (Learning Objectives)**
+**รูปแบบการเรียนการสอน:** บรรยายร่วมกับการปฏิบัติการ (Lecture & Hands-on Lab)
 
-เมื่อสิ้นสุดการเรียนการสอน นิสิตจะสามารถ:
-1.  ประยุกต์ใช้ปรัชญาและหลักการออกแบบซอฟต์แวร์ที่สำคัญได้ (ETC, DRY, Orthogonality)
-2.  ออกแบบและจัดทำเอกสารสถาปัตยกรรมซอฟต์แวร์โดยใช้แนวปฏิบัติสมัยใหม่ (C4 Model, ADRs)
-3.  พัฒนาซอฟต์แวร์โดยใช้วินัย Test-Driven Development (TDD) และสร้างชุดทดสอบอัตโนมัติที่ครอบคลุม
-4.  สร้างและบริหารจัดการท่อส่ง CI/CD อัตโนมัติด้วย GitHub Actions เพื่อทำการทดสอบและส่งมอบ Docker Image
-5.  ประยุกต์ใช้หลักการความปลอดภัยพื้นฐานในการพัฒนาแอปพลิเคชัน (Input Validation, Secret Management)
-6.  วิเคราะห์, ระบุ, และลงมือปรับปรุงโครงสร้างโค้ด (Refactoring) เพื่อชำระหนี้ทางเทคนิค (Technical Debt)
-7.  สื่อสารแนวคิดทางเทคนิคและนำเสนอผลงานโครงการได้อย่างมืออาชีพ
-8.  ใช้เครื่องมือ Generative AI (GitHub Copilot, ChatGPT) เพื่อช่วยในกระบวนการพัฒนาซอฟต์แวร์ได้อย่างมีประสิทธิภาพและมีวิจารณญาณ
-
-### **เอกสารอ้างอิงเพื่อการศึกษาค้นคว้าหลัก (Core References)**
-
-*   **[ESP]** Sommerville, I. (2019). *Engineering Software Products: An Introduction to Modern Software Engineering*. Pearson.
-*   **[PP]** Hunt, A., & Thomas, D. (2019). *The Pragmatic Programmer: Your Journey to Mastery* (2nd ed.). Addison-Wesley Professional.
-*   **[SCG]** Herszfang, H. P., & Henstock, P. V. (2025). *Supercharged Coding with GenAI*. Packt Publishing.
+**การวัดผล:** โครงงานและการประเมินผลอย่างต่อเนื่อง 100% (ไม่มีการสอบทฤษฎีในห้องสอบ)
 
 ---
 
-แน่นอนครับ ผมได้รวบรวมและสังเคราะห์การปรับปรุงทั้งหมดที่เราได้ทำร่วมกัน และจัดทำเป็น **"แผนการสอนฉบับสมบูรณ์ (Final Course Syllabus)"** ที่มีความสอดคล้อง, ลึกซึ้ง, และทันสมัย พร้อมสำหรับการนำไปใช้งานจริงในภาคการศึกษา
+### 1. คำอธิบายรายวิชา (Course Description)
 
-นี่คือแผนการสอนฉบับสมบูรณ์สำหรับรายวิชา **Modern Software Engineering** ครับ
+ศึกษาแนวคิด ปรัชญา และหลักการของวิศวกรรมซอฟต์แวร์สมัยใหม่ เปรียบเทียบการพัฒนารูปแบบโครงการ (Project-based) กับรูปแบบผลิตภัณฑ์ (Product-based) ปลูกฝังทัศนติแบบ "Pragmatic Programmer" การบริหารจัดการโครงการด้วยแนวคิด Agile (Scrum & Extreme Programming) การวิเคราะห์ความต้องการและการจำลองสถานการณ์ผู้ใช้ (Personas, User Stories) การสร้างต้นแบบอย่างรวดเร็วโดยใช้ AI ช่วยเหลือ (AI-Assisted Prototyping)
 
----
-
-**การประเมินผล (Assessment Scheme):**
-*   **25%** - งานปฏิบัติการรายสัปดาห์ (Weekly Labs)
-*   **25%** - สอบกลางภาค: Project Milestone 1 (ส่งมอบสิ้นสัปดาห์ที่ 7)
-*   **35%** - โครงงานปลายภาค และการนำเสนอ (Final Project & Demo)
-*   **15%** - การมีส่วนร่วมและผลงานรายบุคคล (Individual Contribution & Reflection)
+ศึกษาหลักการออกแบบสถาปัตยกรรมซอฟต์แวร์ (Software Architecture) และสถาปัตยกรรมสมัยใหม่บนคลาวด์ (Cloud-Native & Microservices) การสร้างสรรค์โค้ดที่สะอาด (Clean Code) การประกันคุณภาพและการทดสอบอัตโนมัติ (TDD, Unit Testing) วัฒนธรรมและกระบวนการ DevOps (CI/CD Pipeline, Infrastructure as Code) วิศวกรรมซอฟต์แวร์ที่ปลอดภัยและความเป็นส่วนตัวของข้อมูล (Secure by Design & Data Privacy) เทคนิคการปรับปรุงโครงสร้างโค้ด (Refactoring) เพื่อลดหนี้ทางเทคนิค ตลอดจนจรรยาบรรณวิชาชีพและแนวโน้มในอนาคตของวิศวกรรมซอฟต์แวร์
 
 ---
 
-### **โครงสร้างการเรียนการสอนรายสัปดาห์**
+### 2. วัตถุประสงค์การเรียนรู้ (Learning Objectives)
 
-#### **Module 1: Foundations & The Agile Mindset**
+เมื่อนิสิตศึกษาเนื้อหาและปฏิบัติงานในรายวิชานี้ครบ 15 สัปดาห์แล้ว จะมีความสามารถตามองค์ประกอบ 3 ด้าน ดังนี้:
 
-**[สัปดาห์ที่ 1: Introduction to Modern Software Engineering & The Pragmatic Mindset](./Week1/README.md)**
-*   **Lecture:** ทำความเข้าใจความแตกต่างระหว่าง Project-based vs. Product-based, รู้จัก Modern Software Execution Models (SaaS), และปลูกฝังปรัชญา Pragmatic Programmer (Take Responsibility, Software Entropy).
-*   **Lab:** ก่อตั้งทีม, เลือก Theme ของโปรเจกต์, สร้าง Project Charter, ตั้งค่า GitHub Repository ใน Organization, และส่งมอบงานชิ้นแรกผ่านกระบวนการ Git Workflow และ Pull Request ที่ถูกต้อง
+#### 2.1 ด้านความรู้และทักษะทางปัญญา (Cognitive & Intellectual Skills)
 
-**สัปดาห์ที่ 2: Agile Methodologies: Scrum & Extreme Programming (XP)**
-*   **Lecture:** เจาะลึกปรัชญาและคุณค่าของ Agile Manifesto, ทำความเข้าใจกรอบการทำงาน Scrum (3 Pillars, Roles, Events, Artifacts), และเรียนรู้แนวปฏิบัติทางวิศวกรรมจาก Extreme Programming (XP) ที่เป็นเครื่องยนต์ขับเคลื่อนคุณภาพ
-*   **Lab:** จำลอง "Sprint Zero" โดยใช้ GitHub Projects สร้าง Product Backlog จาก User Stories, ฝึกฝนการประเมินขนาดงานด้วย Planning Poker, และวางแผนสำหรับ Sprint 1
+* **LO1:** สามารถ**อธิบายและเปรียบเทียบ**ความแตกต่างระหว่างการพัฒนารูปแบบโครงการ (Project-based) และการพัฒนาผลิตภัณฑ์ซอฟต์แวร์ (Product-based) ในบริบทของอุตสาหกรรมยุคปัจจุบันได้ถูกต้อง
+* **LO2:** สามารถ**วิเคราะห์และตัดสินใจ (Trade-off Analysis)** ในการเลือกรูปแบบสถาปัตยกรรมซอฟต์แวร์ (เช่น Monolith vs Microservices) และเทคโนโลยีสแตก (Tech Stack) ให้เหมาะสมกับข้อกำหนดของระบบทั้งในแง่ฟังก์ชันและคุณลักษณะที่ไม่ใช่ฟังก์ชัน (Non-functional attributes)
+* **LO3:** สามารถ**ออกแบบระบบการทดสอบและกระบวนการส่งมอบซอฟต์แวร์** โดยประยุกต์ใช้หลักการของ Test-Driven Development (TDD) และ DevOps (CI/CD) ได้อย่างเป็นระบบ
 
-**สัปดาห์ที่ 3: Modern Requirements: Personas, Scenarios, and User Stories**
-*   **Lecture:** เรียนรู้เทคนิคการ "ค้นพบ" ความต้องการแทนการ "รวบรวม" ผ่านการสร้าง Personas เพื่อสร้าง Empathy, การเล่าเรื่องผ่าน Scenarios เพื่อสำรวจบริบท, และการสกัดงานด้วย User Stories ที่มีคุณภาพตามเกณฑ์ INVEST
-*   **Lab:** Workshop การสร้าง Personas และ Scenarios สำหรับโปรเจกต์ของทีมโดยใช้ GenAI เป็นผู้ช่วย, จากนั้นสกัด User Stories ที่ได้ไปปรับปรุง Product Backlog และจัดเก็บเอกสารทั้งหมดลง Git
+#### 2.2 ด้านทักษะการปฏิบัติและทักษะวิชาชีพ (Practical & Professional Skills)
 
-**สัปดาห์ที่ 4: Prototyping and Introduction to AI-Assisted Development**
-*   **Lecture:** ทำความเข้าใจปรัชญาการสร้างต้นแบบเพื่อ "การเรียนรู้" (Prototype to Learn), เปรียบเทียบความแตกต่างระหว่าง Low-Fidelity และ High-Fidelity Prototypes, และวิเคราะห์ความแตกต่างเชิงกลยุทธ์ระหว่าง Prototypes (ใช้แล้วทิ้ง) และ Tracer Bullets (โครงสร้างเพื่อต่อยอด) พร้อมแนะนำเครื่องมือ GenAI และหลักการ Prompt Engineering (The Five S's)
-*   **Lab:** ลงมือปฏิบัติการ AI-Powered Prototyping โดยการแปลง User Story ให้กลายเป็น Interactive Mockup ที่ทำงานได้จริง โดยใช้ GitHub Copilot สร้างโครงสร้าง HTML/CSS และใช้ ChatGPT สร้างโค้ด JavaScript สำหรับการโต้ตอบเบื้องต้น
+* **LO4:** สามารถ**ประยุกต์ใช้กระบวนการทำงานแบบ Agile (Scrum & XP)** เพื่อบริหารจัดการงานและสปรินต์ (Sprint) ร่วมกับทีมผ่านเครื่องมือสมัยใหม่ (เช่น GitHub Projects) ได้อย่างมีประสิทธิภาพ
+* **LO5:** สามารถ**แปลงความต้องการของผู้ใช้ (Requirements)** จากรูปแบบ Personas และ Scenarios ให้กลายเป็น User Stories และเกณฑ์การยอมรับ (Acceptance Criteria) ที่สามารถนำไปพัฒนาต่อได้จริง
+* **LO6:** สามารถ**สร้าง ปรับปรุง (Refactor) และปกป้องซอฟต์แวร์** โดยใช้แนวคิด Clean Code หลักการ DRY/ETC การเขียน Dockerfile และการประยุกต์ใช้มาตรการความปลอดภัยขั้นพื้นฐาน (Secure by Design)
+* **LO7:** สามารถ**เลือกและใช้เครื่องมือ Generative AI (เช่น GitHub Copilot, ChatGPT)** ในฐานะผู้ช่วยเพื่อเพิ่มประสิทธิภาพในการทำต้นแบบ (Prototyping) การเขียนโค้ด และการสร้างชุดทดสอบอัตโนมัติได้อย่างชาญฉลาด
 
-#### **Module 2: Architecture & Clean Code Construction**
+#### 2.3 ด้านทักษะทางสังคม จริยธรรม และการสื่อสาร (Soft Skills, Ethics & Communication)
 
-**สัปดาห์ที่ 5: Fundamentals of Software Architecture**
-*   **Lecture:** เจาะลึกนิยามของสถาปัตยกรรมซอฟต์แวร์, การวิเคราะห์ Trade-offs, และผลกระทบต่อคุณภาพระบบ (-ilities) เรียนรู้แนวคิดพื้นฐานในการออกแบบ (Decomposition, Layered Architecture, Client-Server, MVC) และหลักการวัดคุณภาพ (Low Coupling, High Cohesion) พร้อมแนะนำการบันทึกการตัดสินใจด้วย ADRs
-*   **Lab:** Workshop การร่างพิมพ์เขียวสถาปัตยกรรมด้วย C4 Model (Context & Container Diagrams) และฝึกฝนการตัดสินใจเลือก Tech Stack อย่างมีเหตุผลพร้อมบันทึกเป็น ADR-001
-
-**สัปดาห์ที่ 6: Architectural Patterns: Cloud-Native and Microservices**
-*   **Lecture:** ทำความเข้าใจกระบวนทัศน์ Cloud-Native ผ่าน 3 เสาหลัก (Scalability, Elasticity, Resilience) และเทคโนโลยีพื้นฐาน (VMs vs. Containers) จากนั้นเปรียบเทียบสถาปัตยกรรม Monolith กับ Microservices และเรียนรู้ส่วนประกอบสำคัญ (API Gateway, Service Discovery)
-*   **Lab:** ลงมือปฏิบัติการ "Decomposing the Monolith" โดยการแยกฟังก์ชันหนึ่งออกมาสร้างเป็น Microservice ด้วย Python/Flask, เขียน Dockerfile ด้วยความช่วยเหลือจาก AI, และรันเป็น Container ที่ทำงานได้อย่างอิสระ
-
-**สัปดาห์ที่ 7: Pragmatic Programming & Milestone 1 Finalization**
-*   **Lecture:** สรุปและเจาะลึกหลักการเขียนโค้ดคุณภาพจาก "The Pragmatic Programmer" ได้แก่ DRY, Orthogonality, Decoupling, Design by Contract, และการเขียนโค้ดอย่างมีเจตนา (Programming Deliberately)
-*   **Lab:** เป็นช่วงเวลาทำงานและให้คำปรึกษา (Work Session & Consultation) เพื่อให้ทุกทีมทำการ Peer Review และ Refactor โค้ดของตนเองตามหลักการที่เรียนมา และตรวจสอบความครบถ้วนของงานทั้งหมดเพื่อเตรียมส่งมอบ Project Milestone 1
-*   **Submission:** **ส่งมอบ Project Milestone 1 ณ สิ้นสัปดาห์**
-
-**สัปดาห์ที่ 8: Midterm Examination Period (No Classes)**
-*   **กิจกรรม:** เว้นว่างจากการเรียนการสอน เพื่อให้นิสิต/นักศึกษามีเวลาสำหรับการสอบกลางภาคในรายวิชาอื่นๆ
-
-#### **Module 3: Quality, Delivery, and Professional Practice**
-
-**สัปดาห์ที่ 9: Quality Assurance & Automated Testing**
-*   **Lecture:** สร้างความเข้าใจในวัฒนธรรมคุณภาพผ่าน Testing Pyramid, เจาะลึกกระบวนการ Test-Driven Development (TDD), และเรียนรู้เทคนิคการเขียน Unit Test ที่ดี (AAA Pattern, Mocking) พร้อมสำรวจการใช้ AI ช่วยสร้างชุดการทดสอบ
-*   **Lab:** ลงมือปฏิบัติการ TDD เพื่อสร้างฟังก์ชันใหม่, เขียน Unit Tests สำหรับโค้ดเดิมโดยใช้ AI ช่วย, และสร้าง GitHub Actions Workflow แรกสำหรับ Continuous Integration (CI)
-
-**สัปดาห์ที่ 10: The DevOps Pipeline: From CI to CD and Infrastructure as Code**
-*   **Lecture:** ทำความเข้าใจวัฒนธรรม DevOps, เรียนรู้กระบวนการส่งมอบอัตโนมัติเต็มรูปแบบจาก Continuous Integration (CI) สู่ Continuous Delivery/Deployment (CD), และแนวคิด Infrastructure as Code (IaC)
-*   **Lab:** ต่อยอด CI Workflow จากสัปดาห์ที่แล้วให้กลายเป็น CD Pipeline ที่สมบูรณ์ โดยเพิ่มขั้นตอนการ Build และ Push Docker Image ของ Microservice ขึ้นไปยัง Docker Hub โดยอัตโนมัติ
-
-**สัปดาห์ที่ 11: Secure Software Engineering & Data Privacy**
-*   **Lecture:** เรียนรู้หลักการพัฒนาซอฟต์แวร์ให้ปลอดภัย (Secure by Design), ทำความรู้จักช่องโหว่ที่พบบ่อย (SQL Injection, XSS), และตระหนักถึงความรับผิดชอบทางจริยธรรมและกฎหมายในการปกป้องข้อมูลส่วนบุคคลของผู้ใช้ (Data Privacy)
-*   **Lab:** ลงมือ "เสริมความแข็งแกร่ง" ให้โปรเจกต์ โดยการเพิ่ม Input Validation ในฝั่งเซิร์ฟเวอร์ และย้ายข้อมูลลับ (Secrets) ทั้งหมดออกจากโค้ดไปจัดการผ่าน Environment Variables (`.env` file)
-
-**สัปดาห์ที่ 12: Advanced Refactoring & Code Maintenance**
-*   **Lecture:** เจาะลึกแนวคิด "หนี้ทางเทคนิค" (Technical Debt) และเรียนรู้เทคนิคการ "ชำระหนี้" ผ่านการ Refactoring เรียนรู้วิธีการระบุ "Code Smells" และใช้เทคนิคต่างๆ (เช่น Extract Method) เพื่อปรับปรุงโครงสร้างโค้ด
-*   **Lab:** Workshop การทำ Code Smell Hunt ในโปรเจกต์ของตนเอง, เปิด Issue เพื่อติดตาม Technical Debt, และลงมือ Refactor โค้ดโดยใช้เครื่องมืออัตโนมัติใน IDE และความช่วยเหลือจาก GenAI
-
-**สัปดาห์ที่ 13: Project Workshop & Final Sprint Consultation**
-*   **Lecture:** สรุปภาพรวมและให้คำแนะนำสำหรับการนำเสนอโครงงานปลายภาค, การเล่าเรื่อง (Storytelling), และการสาธิตที่มีประสิทธิภาพ
-*   **Lab:** เป็นคาบทำงานเต็มรูปแบบ (Work Session) สำหรับ Sprint สุดท้าย โดยมีอาจารย์คอยให้คำปรึกษาเชิงลึก (Deep-Dive Consultation) กับแต่ละทีมเพื่อเตรียมความพร้อมสำหรับ Demo Day
-
-**สัปดาห์ที่ 14: Final Project Presentations & Demo Day**
-*   **กิจกรรม:** แต่ละทีมนำเสนอและสาธิตการทำงานของโครงงานปลายภาคที่เสร็จสมบูรณ์ อธิบายการตัดสินใจเชิงสถาปัตยกรรม และแสดงให้เห็นถึงกระบวนการทำงานแบบมืออาชีพที่ได้เรียนรู้มาตลอดทั้งเทอม พร้อมช่วง Q&A และการให้ Feedback จากเพื่อนร่วมชั้น
-
-**สัปดาห์ที่ 15: Professional Practice, Ethics, and The Future of Software Engineering**
-*   **Lecture:** สรุปภาพรวมจรรยาบรรณวิชาชีพ, การวางแผนเส้นทางอาชีพ, และการเรียนรู้ตลอดชีวิต (Managing Your Knowledge Portfolio) พร้อมอภิปรายถึงอนาคตของวิศวกรรมซอฟต์แวร์และผลกระทบของ AI ต่อบทบาทของนักพัฒนา
-*   **Lab:** กิจกรรม "Team Retrospective" เพื่อทบทวนการทำงานในโปรเจกต์ และปิดท้ายด้วยเซสชัน "Career Q&A" กับอาจารย์
+* **LO8:** สามารถ**สื่อสาร นำเสนอ และสาธิตซอฟต์แวร์ (Software Demo)** ที่ทำงานได้จริงให้แก่ผู้มีส่วนได้ส่วนเสีย พร้อมทั้งอธิบายเหตุผลเบื้องหลังการตัดสินใจเชิงวิศวกรรมได้อย่างชัดเจนและเป็นมืออาชีพ
+* **LO9:** มีความรับผิดชอบในการ**ทำงานร่วมกันเป็นทีมผ่านระบบควบคุมเวอร์ชัน (Git/GitHub)** มีวินัยในการส่งมอบงานอย่างสม่ำเสมอ และสามารถตรวจสอบย้อนกลับกระบวนการทำงานของตนเองได้ (Git Contribution)
+* **LO10:** มีความตระหนักรู้ในเรื่อง**จรรยาบรรณวิชาชีพ (Professional Ethics)** และตระหนักถึงความรับผิดชอบในประเด็นความปลอดภัยและความเป็นส่วนตัวของข้อมูลผู้ใช้ (Data Privacy / PDPA)
 
 ---
+
+### 3. ปรัชญาและแนวทางการวัดผล (Grading & Assessment Philosophy)
+
+รายวิชานี้เน้นปรัชญา **"Pragmatic" (การลงมือทำ การแก้ปัญหาจริง และเรียนรู้จากประสบการณ์)** การประเมินผลจะพิจารณาจากผลงานที่จับต้องได้ (Tangible Artifacts) และกระบวนการทำงานที่มีคุณภาพ (Quality Process) ผ่านระบบ GitHub เป็นหลัก โดยเก็บคะแนนสะสมอย่างต่อเนื่องตลอดทั้งภาคการศึกษา (Continuous Assessment 100%) เพื่อส่งเสริมการเรียนรู้เชิงลึกและลดความกดดันจากการสอบท่องจำ **(ไม่มีการสอบทฤษฎีในห้องสอบ)**
+
+#### สัดส่วนการประเมินผล (Grading Scheme)
+
+| องค์ประกอบการประเมิน (Assessment Component) | สัดส่วนคะแนน | วัตถุประสงค์ที่สอดคล้อง |
+| --- | --- | --- |
+| **A. งานปฏิบัติการรายสัปดาห์ (Weekly Labs)** | **25%** | LO4, LO5, LO6, LO7, LO9 |
+| **B. สอบกลางภาค: Project Milestone 1** | **25%** | LO1, LO2, LO5, LO6, LO9 |
+| **C. โครงงานปลายภาค และการนำเสนอ (Final Project & Demo)** | **35%** | LO2, LO3, LO6, LO8, LO9 |
+| **D. การมีส่วนร่วมและผลงานรายบุคคล (Individual Contribution)** | **15%** | LO9, LO10 |
+| **รวม** | **100%** |  |
+
+---
+
+### 4. รายละเอียดเกณฑ์การประเมินผล (Rubrics)
+
+* **A. งานปฏิบัติการรายสัปดาห์ (Weekly Labs) - 25%:** ตรวจสอบจากการส่งงาน (Commit) บน GitHub Repository ของแต่ละทีม เน้นการให้คะแนนแบบ *Completion and Effort* (ทำครบถ้วนตามโจทย์และแสดงให้เห็นถึงความพยายาม) เพื่อกระตุ้นให้นิสิตกล้าทดลองและเรียนรู้จากข้อผิดพลาด
+* **B. สอบกลางภาค: Project Milestone 1 - 25%:** ประเมินความสมบูรณ์ของคลังโค้ด ณ สิ้นสุดสัปดาห์ที่ 7 แบ่งเป็น Project Management & Process (5%), Requirements & Design Artifacts (5%), Code Quality (10%), และ Repository & Docker Documentation (5%)
+* **C. โครงงานปลายภาคและการนำเสนอ (Final Project & Demo) - 35%:** ประเมิน ณ สัปดาห์ที่ 14 จากความสามารถในการทำงานของซอฟต์แวร์จริง (10%), ความยอดเยี่ยมทางเทคนิคและสถาปัตยกรรม (10%), ความสมบูรณ์ของ DevOps Pipeline (5%), ทักษะการนำเสนอและสาธิต Demo (5%), และเอกสารคู่มือพัฒนา (5%)
+* **D. การมีส่วนร่วมและผลงานรายบุคคล (Individual Contribution) - 15%:** วิเคราะห์ผลงานรายบุคคลผ่าน Git History Analysis ดูความถี่และความสม่ำเสมอในการส่งมอบงาน (10%) และการส่งงานเขียนถอดบทเรียนและความเข้าใจท้ายเทอม Final Reflection (5%)
+
+---
+
+### 5. แผนการเรียนรายสัปดาห์และเอกสารอ่านประกอบ (15-Week Course Outline)
+
+#### [ ครึ่งแรกของภาคการศึกษา: Foundation, Agility & Architecture ]
+
+* **สัปดาห์ที่ 1: Introduction to Modern Software Engineering & The Pragmatic Mindset**
+* **เนื้อหา:** ปูพื้นฐานวิศวกรรมซอฟต์แวร์ยุคปัจจุบัน; เปรียบเทียบ Project-based vs Product-based; ปลูกฝังทัศนคติ "Pragmatic Programmer" ความรับผิดชอบ และการเรียนรู้ตลอดชีวิต
+* **งานปฏิบัติการ (Lab 1 - 1%):** *First Pragmatic Commit* — ส่งไฟล์ `<your-name>.md` ที่เขียนสะท้อนความคิดลงบน GitHub
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 1-2, [PP] Chapter 1
+
+
+* **สัปดาห์ที่ 2: Agile Methodologies: Scrum & Extreme Programming (XP)**
+* **เนื้อหา:** เจาะลึกหลักการ Agile Manifesto; กระบวนการทำงานของ Scrum (Roles, Events, Artifacts); แนวปฏิบัติทางเทคนิคจาก Extreme Programming (XP) เพื่อสร้างซอฟต์แวร์ที่คล่องตัว
+* **งานปฏิบัติการ (Lab 2 - 2%):** *Sprint Zero Setup* — ตั้งค่า GitHub Projects Board และร่วมกันสร้าง Product Backlog ของทีม
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 3
+
+
+* **สัปดาห์ที่ 3: Modern Requirements: Personas, Scenarios, and User Stories**
+* **เนื้อหา:** เทคนิคการเก็บและวิเคราะห์ความต้องการยุคใหม่; เปลี่ยนเอกสารซับซ้อนให้เป็นความเข้าใจผู้ใช้ผ่าน Personas; จำลองสถานการณ์ด้วย Scenarios และแจกแจงงานด้วย User Stories
+* **งานปฏิบัติการ (Lab 3 - 2%):** *Requirements Documentation* — ส่งมอบเอกสาร Personas และ Scenarios ไว้อย่างเป็นระบบในโฟลเดอร์ `docs/`
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 4-5
+
+
+* **สัปดาห์ที่ 4: Prototyping and Introduction to AI-Assisted Development**
+* **เนื้อหา:** แนวทางการสร้างต้นแบบ (Prototype) เพื่อทดสอบไอเดียอย่างรวดเร็ว; การใช้เครื่องมือ Generative AI (GitHub Copilot, ChatGPT) ในฐานะผู้ช่วยรังสรรค์โค้ดและต้นแบบ
+* **งานปฏิบัติการ (Lab 4 - 2%):** *Rapid Prototyping* — ส่งมอบไฟล์ Prototype (HTML/CSS/JS) ที่สามารถทำงานและโต้ตอบเบื้องต้นได้
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 6, [SCG] Chapter 1-3
+
+
+* **สัปดาห์ที่ 5: Fundamentals of Software Architecture**
+* **เนื้อหา:** ความสำคัญของสถาปัตยกรรมซอฟต์แวร์ต่อคุณภาพระยะยาว; การวิเคราะห์ Trade-offs; คุณลักษณะที่ไม่ใช่ฟังก์ชัน (Non-functional attributes); หลักการแบ่งส่วนระบบ (System Decomposition)
+* **งานปฏิบัติการ (Lab 5 - 2%):** *Architectural Artifacts* — ออกแบบและส่งมอบ C4 Diagrams และไฟล์เอกสาร `tech_stack.md`
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 7, [PP] Chapter 5
+
+
+* **สัปดาห์ที่ 6: Architectural Patterns: Cloud-Native and Microservices**
+* **เนื้อหา:** รูปแบบสถาปัตยกรรมสมัยใหม่บนคลาวด์; แนวคิด Virtualization และ Containers; หลักการออกแบบ Microservices Architecture เพื่อระบบที่ยืดหยุ่นและขยายตัวได้ง่าย
+* **งานปฏิบัติการ (Lab 6 - 3%):** *First Container* — เขียนและส่งมอบ Dockerfile สำหรับ Microservice แรก พร้อมทดลอง Push Image ขึ้น Docker Hub
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 8-9
+
+
+* **สัปดาห์ที่ 7: Pragmatic Programming: The Art of Clean Code Construction**
+* **เนื้อหา:** การเขียนโค้ดที่สะอาดและมีคุณภาพสูงจากแก่นปรัชญา Pragmatic Programmer; เรียนรู้หลักการ DRY (Don't Repeat Yourself), Orthogonality, และแนวคิด "Easier to Change" (ETC)
+* **งานปฏิบัติการ (Lab 7 - 2%):** *Refactoring Commit* — ปรับปรุงโค้ดให้สะอาดขึ้น พร้อมส่งมอบด้วย Commit Message ที่ถูกต้องตามมาตรฐาน
+* **เอกสารอ่านประกอบ:** [PP] Chapter 2 & Chapter 4
+* *หมายเหตุ: กำหนดส่งมอบ Project Milestone 1 (สอบกลางภาค) ณ สิ้นสุดสัปดาห์นี้*
+
+
+* **สัปดาห์ที่ 8: Midterm Examination Period (No Classes)**
+* **เนื้อหา:** *งดการเรียนการสอน* เพื่อให้นิสิตทุ่มเทกับการสอบกลางภาคในรายวิชาอื่นได้อย่างเต็มที่ (ไม่มีคะแนนในสัปดาห์นี้)
+
+
+
+---
+
+#### [ ครึ่งหลังของภาคการศึกษา: Quality, DevOps & Delivery ]
+
+* **สัปดาห์ที่ 9: Quality Assurance & Automated Testing**
+* **เนื้อหา:** การสร้างวัฒนธรรมคุณภาพในซอฟต์แวร์; เรียนรู้ Test-Driven Development (TDD) และ Unit Testing; ขยายผลสู่ Integration & System Testing; การใช้ AI เร่งกระบวนการสร้างและดูแล Test Suites
+* **งานปฏิบัติการ (Lab 9 - 3%):** *Unit Test Implementation* — ส่งมอบไฟล์ Unit Test (`test_*.py` หรือตามภาษาที่ใช้) และตั้งค่าระบบ CI Workflow พื้นฐาน
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 11, [PP] Chapter 7, [SCG] Chapter 6
+
+
+* **สัปดาห์ที่ 10: The DevOps Pipeline: From CI to CD and Infrastructure as Code**
+* **เนื้อหา:** หลักการ DevOps เพื่อการส่งมอบซอฟต์แวร์อัตโนมัติครบวงจร; การจัดการ Git Branching; การสร้าง Continuous Integration (CI) และ Continuous Delivery/Deployment (CD) Pipeline; แนะนำแนวคิด Infrastructure as Code (IaC)
+* **งานปฏิบัติการ (Lab 10 - 3%):** *Full CI/CD Pipeline* — ส่งมอบไฟล์ Workflow การทำงานที่สมบูรณ์ (เช่น Build, Test และ Push Docker Image อัตโนมัติ)
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 10, [SCG] Chapter 8
+
+
+* **สัปดาห์ที่ 11: Secure Software Engineering & Data Privacy**
+* **เนื้อหา:** การสร้างซอฟต์แวร์ให้ปลอดภัยตั้งแต่เริ่มต้น (Secure by Design); การป้องกันช่องโหว่พื้นฐานที่นักพัฒนาต้องรู้; ความรับผิดชอบทางกฎหมายและจริยธรรมเกี่ยวกับความเป็นส่วนตัวของข้อมูล (Data Privacy / PDPA)
+* **งานปฏิบัติการ (Lab 11 - 3%):** *Security Hardening* — ส่งมอบโค้ดที่มีระบบ Input Validation และการจัดการคีย์ความลับผ่านไฟล์ `.env` (Secrets Management)
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 12, [PP] Chapter 6
+
+
+* **สัปดาห์ที่ 12: Advanced Refactoring & Code Maintenance**
+* **เนื้อหา:** การจัดการหนี้ทางเทคนิค (Technical Debt); เทคนิคการปรับปรุงโครงสร้างโค้ดเดิมที่ซับซ้อนให้บำรุงรักษาง่ายในระยะยาว; การใช้ AI เป็นผู้ช่วยวิเคราะห์และเสนอแนะแนวทางแก้ไข Code Smells
+* **งานปฏิบัติการ (Lab 12 - 2%):** *Advanced Refactoring* — ตรวจสอบ แก้ไข และปิดประเด็น (Issues) ของ Code Smells ที่ถูกเปิดไว้ในคลังโค้ด
+* **เอกสารอ่านประกอบ:** [PP] Chapter 8, [SCG] Chapter 5
+
+
+* **สัปดาห์ที่ 13: Project Workshop & Final Sprint Consultation**
+* **เนื้อหา:** คาบปฏิบัติการและทำงานร่วมกันเต็มรูปแบบ (Workshop); นิสิตลงมือพัฒนาโปรเจกต์ใน Sprint สุดท้าย; รับคำปรึกษาเชิงลึกจากอาจารย์ผู้สอน (Final Consultation) เพื่อเตรียมความพร้อมขั้นสุดท้าย
+* **งานปฏิบัติการ:** ไม่มีคะแนน Lab ย่อย (เน้นการโค้ชชิ่งกลุ่มเพื่อเตรียมความพร้อมสำหรับวัน Demo)
+* **เอกสารอ่านประกอบ:** [PP] Chapter 9
+
+
+* **สัปดาห์ที่ 14: Final Project Presentations & Demo Day**
+* **เนื้อหา:** วันนำเสนอผลงานโครงงานปลายภาค (Demo Day); แต่ละกลุ่มนำเสนอผลิตภัณฑ์ซอฟต์แวร์ที่ทำงานได้จริง (Working Software) ต่อหน้าสาธารณะ อธิบายการตัดสินใจเชิงสถาปัตยกรรม และสาธิตกระบวนการทำงานแบบ Agile/DevOps ที่ใช้จริง
+* **การประเมินผล:** ประเมินคะแนนโครงงานปลายภาคและการนำเสนอ (35%)
+
+
+* **สัปดาห์ที่ 15: Professional Practice, Ethics, and The Future of Software Engineering**
+* **เนื้อหา:** สรุปภาพรวมรายวิชา; อภิปรายเรื่องจรรยาบรรณวิชาชีพวิศวกรซอฟต์แวร์; การวางแผนเส้นทางอาชีพ (Career Path); ร่วมวิเคราะห์อนาคตของ Software Engineering และผลกระทบของ AI ต่อบทบาทนักพัฒนาในทศวรรษหน้า
+* **งานส่งมอบ:** *Final Reflection* — ส่งเล่มหรือไฟล์สะท้อนความคิดรายบุคคล (คิดเป็นคะแนนส่วนบุคคล 5%)
+* **เอกสารอ่านประกอบ:** [ESP] Chapter 13, [PP] Chapter 1 (Topic: Code Management & Responsibility)
+
+
+
+---
+
+### 6. เอกสารอ้างอิงเพื่อการศึกษาค้นคว้าหลัก (Core References)
+
+* **[ESP]** Sommerville, I. (2019). *Engineering Software Products: An Introduction to Modern Software Engineering*. Pearson.
+* **[PP]** Hunt, A., & Thomas, D. (2019). *The Pragmatic Programmer: Your Journey to Mastery* (2nd ed.). Addison-Wesley Professional.
+* **[SCG]** Herszfang, H. P., & Henstock, P. V. (2025). *Supercharged Coding with GenAI*. Packt Publishing.
