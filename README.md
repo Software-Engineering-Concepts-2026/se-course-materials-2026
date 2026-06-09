@@ -67,7 +67,22 @@
 * **D. การมีส่วนร่วมและผลงานรายบุคคล (Individual Contribution) - 15%:** วิเคราะห์ผลงานรายบุคคลผ่าน Git History Analysis ดูความถี่และความสม่ำเสมอในการส่งมอบงาน (10%) และการส่งงานเขียนถอดบทเรียนและความเข้าใจท้ายเทอม Final Reflection (5%)
 
 ---
-
+สัปดาห์,หัวข้อ/เนื้อหาบทเรียน (Lecture Topics),งานปฏิบัติการที่ต้องส่งมอบ (Weekly Labs & Deliverables),สัดส่วนคะแนน,เอกสารอ่านประกอบ (References)
+1,Introduction to Modern Software Engineering & The Pragmatic Mindset• Project-based vs Product-based• ปรัชญา Pragmatic Programmer และความรับผิดชอบ,Lab 1: First Pragmatic Commit• ส่งไฟล์ <your-name>.md สะท้อนความคิดขึ้นระบบ GitHub,1%,[ESP] Ch. 1-2[PP] Ch. 1
+2,"Agile Methodologies: Scrum & Extreme Programming (XP)• Agile Manifesto, พิธีกรรมและบทบาทใน Scrum• แนวปฏิบัติทางเทคนิคเบื้องต้นตามวิถี XP",Lab 2: Sprint Zero Setup• ตั้งค่า GitHub Projects Board และสร้าง Product Backlog,2%,[ESP] Ch. 3
+3,"Modern Requirements: Personas, Scenarios, and User Stories• การทำความเข้าใจผู้ใช้ด้วย Personas และ Scenarios• การแจกแจงงานและเขียนเกณฑ์การยอมรับ (User Stories)",Lab 3: Requirements Documentation• จัดเก็บเอกสารข้อกำหนดระบบลงในโฟลเดอร์ docs/,2%,[ESP] Ch. 4-5
+4,Prototyping and Introduction to AI-Assisted Development• การสร้างต้นแบบเพื่อทดสอบแนวคิดอย่างรวดเร็ว• การใช้ GenAI (Copilot/ChatGPT) ช่วยเขียนโค้ดและขึ้นโครง,Lab 4: Rapid Prototyping• ส่งมอบไฟล์ต้นแบบ (HTML/CSS/JS) ที่โต้ตอบเบื้องต้นได้,2%,[ESP] Ch. 6[SCG] Ch. 1-3
+5,Fundamentals of Software Architecture• ความสำคัญของสถาปัตยกรรมและการวิเคราะห์ Trade-offs• Non-functional attributes และ System Decomposition,Lab 5: Architectural Artifacts• ออกแบบ C4 Diagrams และระบุเหตุผลลง tech_stack.md,2%,[ESP] Ch. 7[PP] Ch. 5
+6,Architectural Patterns: Cloud-Native and Microservices• แนวคิด Virtualization และ Containers• หลักการออกแบบระบบย่อยใน Microservices Architecture,Lab 6: First Container• เขียน Dockerfile และทดลอง Push Image ขึ้น Docker Hub,3%,[ESP] Ch. 8-9
+7,Pragmatic Programming: The Art of Clean Code Construction• แก่นการเขียนโค้ดที่สะอาดตามหลัก DRY และ Orthogonality• การออกแบบโค้ดให้พร้อมรับการเปลี่ยนแปลง (ETC),Lab 7: Refactoring Commit• ปรับปรุงโค้ดให้สะอาด พร้อมใช้ Commit Message มาตรฐาน(สิ้นสุดสัปดาห์: กำหนดส่งมอบ Project Milestone 1),2%(Milestone 1: 25%),"[PP] Ch. 2, 4"
+8,Midterm Examination Period (No Classes)• งดการเรียนการสอนเพื่อให้เวลานิสิตกับการสอบวิชาอื่น,ไม่มีการส่งงานในสัปดาห์นี้,-,-
+9,Quality Assurance & Automated Testing• วัฒนธรรมคุณภาพผ่านแนวคิด TDD และ Unit Testing• Integration/System Testing และการใช้ AI เจนชุดทดสอบ,Lab 9: Unit Test Implementation• ส่งไฟล์ Unit Test (test_*.py) และตั้งค่าระบบ CI พื้นฐาน,3%,[ESP] Ch. 11[PP] Ch. 7[SCG] Ch. 6
+10,The DevOps Pipeline: From CI to CD and IaC• การบริหาร Git Branching และท่อส่งมอบงานอัตโนมัติ• แนะนำแนวคิด Infrastructure as Code (IaC),"Lab 10: Full CI/CD Pipeline• ส่งมอบไฟล์ Workflow สมบูรณ์ (Build, Test, Push อัตโนมัติ)",3%,[ESP] Ch. 10[SCG] Ch. 8
+11,Secure Software Engineering & Data Privacy• การออกแบบระบบให้ปลอดภัยตั้งแต่เริ่มต้น (Secure by Design)• การป้องกันช่องโหว่พื้นฐาน และจริยธรรมข้อมูล (PDPA),Lab 11: Security Hardening• ทำ Input Validation และจัดการข้อมูลความลับผ่าน .env,3%,[ESP] Ch. 12[PP] Ch. 6
+12,Advanced Refactoring & Code Maintenance• การบริหารจัดการหนี้ทางเทคนิค (Technical Debt)• ตรวจจับ Code Smells และใช้ AI ร่วมช่วยคลี่คลายโค้ด,Lab 12: Advanced Refactoring• ไล่เคลียร์และปิดประเด็น (Issues) ข้อบกพร่องในคลังโค้ด,2%,[PP] Ch. 8[SCG] Ch. 5
+13,Project Workshop & Final Sprint Consultation• คาบปฏิบัติการเต็มรูปแบบเพื่อลุยงานใน Sprint สุดท้าย• รับคำปรึกษาเชิงลึกจากอาจารย์เพื่อเตรียมความพร้อมวัน Demo,ไม่มีคะแนน Lab ย่อย• เน้นการโค้ชชิ่งและเร่งพัฒนาส่วนที่เหลือให้สมบูรณ์,-,[PP] Ch. 9
+14,Final Project Presentations & Demo Day• นำเสนอผลิตภัณฑ์ซอฟต์แวร์ที่ทำงานได้จริงต่อสาธารณะ• สาธิตกระบวนการทำงานและตอบข้อซักถามเชิงเทคนิค,"Final Project Presentation• ประเมินจาก Working Software, Pipeline และการนำเสนอ",(Final Project: 35%),-
+15,"Professional Practice, Ethics, and The Future of SE• จรรยาบรรณวิชาชีพและการวางแผนเส้นทางอาชีพ (Career)• วิเคราะห์อนาคตของวิศวกรรมซอฟต์แวร์ในยุค AI",Final Reflection• ส่งงานเขียนถอดบทเรียนรายบุคคลหลังทำกิจกรรม Retrospective,(Reflection: 5%)(Git Hist. Anal.: 10%),[ESP] Ch. 13[PP] Ch. 1
 
 ---
 
