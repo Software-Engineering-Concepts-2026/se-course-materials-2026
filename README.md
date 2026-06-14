@@ -69,7 +69,7 @@
 
 | สัปดาห์ | หัวข้อ/เนื้อหาบทเรียน (Lecture Topics) | งานปฏิบัติการที่ต้องส่งมอบ (Weekly Labs) | คะแนน | เอกสารอ่านประกอบ |
 | --- | --- | --- | --- | --- |
-| **1** | Intro to SE & Pragmatic Mindset / Project vs Product / ความรับผิดชอบของนักพัฒนา | **Lab 1:** First Pragmatic Commit / ส่งไฟล์ `<your-name>.md` สะท้อนความคิดลง GitHub | 1% | [ESP] Ch.1-2, [PP] Ch.1 |
+| **1** | [Intro to SE & Pragmatic Mindset / Project vs Product / ความรับผิดชอบของนักพัฒนา](https://github.com/Software-Engineering-Concepts-2026/se-course-materials-2026/tree/main/Week1) | **Lab 1:** First Pragmatic Commit / ส่งไฟล์ `<your-name>.md` สะท้อนความคิดลง GitHub | 1% | [ESP] Ch.1-2, [PP] Ch.1 |
 | **2** | Agile Methodologies / พิธีกรรมและบทบาทใน Scrum / แนวปฏิบัติทางเทคนิคพื้นฐานตามวิถี XP | **Lab 2:** Sprint Zero Setup / ตั้งค่า GitHub Projects Board และสร้าง Product Backlog | 2% | [ESP] Ch.3 |
 | **3** | Modern Requirements / การเข้าใจผู้ใช้ผ่าน Personas และ Scenarios / การเขียน User Stories | **Lab 3:** Requirements Docs / ส่งมอบเอกสารวิเคราะห์และจัดเก็บลงในโฟลเดอร์ `docs/` | 2% | [ESP] Ch.4-5 |
 | **4** | Prototyping / การสร้างต้นแบบเพื่อทดสอบแนวคิด / ใช้ GenAI (Copilot/ChatGPT) ช่วยขึ้นโครง | **Lab 4:** Rapid Prototyping / ส่งมอบไฟล์ต้นแบบหน้าจอ (HTML/CSS/JS) ที่โต้ตอบได้ | 2% | [ESP] Ch.6, [SCG] Ch.1-3 |
